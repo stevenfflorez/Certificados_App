@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: CasaToro.Consulta.Certificados.DAL
+  commentId: N:CasaToro.Consulta.Certificados.DAL
+  id: CasaToro.Consulta.Certificados.DAL
+  children:
+  - CasaToro.Consulta.Certificados.DAL.ApplicationDbContext
+  langs:
+  - csharp
+  - vb
+  name: CasaToro.Consulta.Certificados.DAL
+  nameWithType: CasaToro.Consulta.Certificados.DAL
+  fullName: CasaToro.Consulta.Certificados.DAL
+  type: Namespace
+  assemblies:
+  - CasaToro.Consulta.Certificados.DAL
+references:
+- uid: CasaToro.Consulta.Certificados.DAL.ApplicationDbContext
+  commentId: T:CasaToro.Consulta.Certificados.DAL.ApplicationDbContext
+  parent: CasaToro.Consulta.Certificados.DAL
+  href: CasaToro.Consulta.Certificados.DAL.ApplicationDbContext.html
+  name: ApplicationDbContext
+  nameWithType: ApplicationDbContext
+  fullName: CasaToro.Consulta.Certificados.DAL.ApplicationDbContext
+- uid: CasaToro.Consulta.Certificados.DAL
+  commentId: N:CasaToro.Consulta.Certificados.DAL
+  href: CasaToro.html
+  name: CasaToro.Consulta.Certificados.DAL
+  nameWithType: CasaToro.Consulta.Certificados.DAL
+  fullName: CasaToro.Consulta.Certificados.DAL
+  spec.csharp:
+  - uid: CasaToro
+    name: CasaToro
+    href: CasaToro.html
+  - name: .
+  - uid: CasaToro.Consulta
+    name: Consulta
+    href: CasaToro.Consulta.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados
+    name: Certificados
+    href: CasaToro.Consulta.Certificados.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.DAL
+    name: DAL
+    href: CasaToro.Consulta.Certificados.DAL.html
+  spec.vb:
+  - uid: CasaToro
+    name: CasaToro
+    href: CasaToro.html
+  - name: .
+  - uid: CasaToro.Consulta
+    name: Consulta
+    href: CasaToro.Consulta.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados
+    name: Certificados
+    href: CasaToro.Consulta.Certificados.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.DAL
+    name: DAL
+    href: CasaToro.Consulta.Certificados.DAL.html

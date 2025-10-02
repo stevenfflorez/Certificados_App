@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: CasaToro.Consulta.Certificados.Web.Controllers
+  commentId: N:CasaToro.Consulta.Certificados.Web.Controllers
+  id: CasaToro.Consulta.Certificados.Web.Controllers
+  children:
+  - CasaToro.Consulta.Certificados.Web.Controllers.AdminController
+  - CasaToro.Consulta.Certificados.Web.Controllers.LoginController
+  - CasaToro.Consulta.Certificados.Web.Controllers.ProviderController
+  langs:
+  - csharp
+  - vb
+  name: CasaToro.Consulta.Certificados.Web.Controllers
+  nameWithType: CasaToro.Consulta.Certificados.Web.Controllers
+  fullName: CasaToro.Consulta.Certificados.Web.Controllers
+  type: Namespace
+  assemblies:
+  - CasaToro.Consulta.Certificados.Web
+references:
+- uid: CasaToro.Consulta.Certificados.Web.Controllers.AdminController
+  commentId: T:CasaToro.Consulta.Certificados.Web.Controllers.AdminController
+  href: CasaToro.Consulta.Certificados.Web.Controllers.AdminController.html
+  name: AdminController
+  nameWithType: AdminController
+  fullName: CasaToro.Consulta.Certificados.Web.Controllers.AdminController
+- uid: CasaToro.Consulta.Certificados.Web.Controllers.LoginController
+  commentId: T:CasaToro.Consulta.Certificados.Web.Controllers.LoginController
+  href: CasaToro.Consulta.Certificados.Web.Controllers.LoginController.html
+  name: LoginController
+  nameWithType: LoginController
+  fullName: CasaToro.Consulta.Certificados.Web.Controllers.LoginController
+- uid: CasaToro.Consulta.Certificados.Web.Controllers.ProviderController
+  commentId: T:CasaToro.Consulta.Certificados.Web.Controllers.ProviderController
+  href: CasaToro.Consulta.Certificados.Web.Controllers.ProviderController.html
+  name: ProviderController
+  nameWithType: ProviderController
+  fullName: CasaToro.Consulta.Certificados.Web.Controllers.ProviderController

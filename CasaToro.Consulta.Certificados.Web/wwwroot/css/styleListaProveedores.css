@@ -1,0 +1,51 @@
+﻿@import url('colors.css');
+
+thead {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.main-table-header th {
+    background-color: #2976B7 !important;
+    color: #ffffff !important;
+}
+
+.table-responsive {
+    height: 68vh;
+}
+
+.table-options {
+    padding-top: 0.2rem;
+    width: 100%;
+}
+
+.table-options {
+    padding-top: 0.2rem;
+    width: 100%;
+}
+
+.search-input-container {
+    width: 35% !important;
+}
+
+.form-input-container{
+    width:80% !important
+}
+
+.modal-title {
+    text-align: start !important;
+    margin-left: 1rem;
+}
+
+.modal-body form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+@media (min-width: 1920px) {
+    .table-responsive {
+        height: 79vh;
+    }
+}

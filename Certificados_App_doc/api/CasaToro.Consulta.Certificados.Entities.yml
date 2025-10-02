@@ -1,0 +1,137 @@
+### YamlMime:ManagedReference
+items:
+- uid: CasaToro.Consulta.Certificados.Entities
+  commentId: N:CasaToro.Consulta.Certificados.Entities
+  id: CasaToro.Consulta.Certificados.Entities
+  children:
+  - CasaToro.Consulta.Certificados.Entities.Administradore
+  - CasaToro.Consulta.Certificados.Entities.CertificadosIca
+  - CasaToro.Consulta.Certificados.Entities.CertificadosIva
+  - CasaToro.Consulta.Certificados.Entities.CertificadosRtefte
+  - CasaToro.Consulta.Certificados.Entities.EmpresasMaster
+  - CasaToro.Consulta.Certificados.Entities.EmpresasProveedore
+  - CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+  - CasaToro.Consulta.Certificados.Entities.LogDescarga
+  - CasaToro.Consulta.Certificados.Entities.LogLogin
+  - CasaToro.Consulta.Certificados.Entities.LogLoginAdmin
+  - CasaToro.Consulta.Certificados.Entities.ProveedoresMaster
+  langs:
+  - csharp
+  - vb
+  name: CasaToro.Consulta.Certificados.Entities
+  nameWithType: CasaToro.Consulta.Certificados.Entities
+  fullName: CasaToro.Consulta.Certificados.Entities
+  type: Namespace
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+references:
+- uid: CasaToro.Consulta.Certificados.Entities.Administradore
+  commentId: T:CasaToro.Consulta.Certificados.Entities.Administradore
+  parent: CasaToro.Consulta.Certificados.Entities
+  href: CasaToro.Consulta.Certificados.Entities.Administradore.html
+  name: Administradore
+  nameWithType: Administradore
+  fullName: CasaToro.Consulta.Certificados.Entities.Administradore
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca
+  commentId: T:CasaToro.Consulta.Certificados.Entities.CertificadosIca
+  href: CasaToro.Consulta.Certificados.Entities.CertificadosIca.html
+  name: CertificadosIca
+  nameWithType: CertificadosIca
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIva
+  commentId: T:CasaToro.Consulta.Certificados.Entities.CertificadosIva
+  href: CasaToro.Consulta.Certificados.Entities.CertificadosIva.html
+  name: CertificadosIva
+  nameWithType: CertificadosIva
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIva
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosRtefte
+  commentId: T:CasaToro.Consulta.Certificados.Entities.CertificadosRtefte
+  href: CasaToro.Consulta.Certificados.Entities.CertificadosRtefte.html
+  name: CertificadosRtefte
+  nameWithType: CertificadosRtefte
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosRtefte
+- uid: CasaToro.Consulta.Certificados.Entities.EmpresasMaster
+  commentId: T:CasaToro.Consulta.Certificados.Entities.EmpresasMaster
+  parent: CasaToro.Consulta.Certificados.Entities
+  href: CasaToro.Consulta.Certificados.Entities.EmpresasMaster.html
+  name: EmpresasMaster
+  nameWithType: EmpresasMaster
+  fullName: CasaToro.Consulta.Certificados.Entities.EmpresasMaster
+- uid: CasaToro.Consulta.Certificados.Entities.EmpresasProveedore
+  commentId: T:CasaToro.Consulta.Certificados.Entities.EmpresasProveedore
+  href: CasaToro.Consulta.Certificados.Entities.EmpresasProveedore.html
+  name: EmpresasProveedore
+  nameWithType: EmpresasProveedore
+  fullName: CasaToro.Consulta.Certificados.Entities.EmpresasProveedore
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+  commentId: T:CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+  href: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.html
+  name: FacturasProveedore
+  nameWithType: FacturasProveedore
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+- uid: CasaToro.Consulta.Certificados.Entities.LogDescarga
+  commentId: T:CasaToro.Consulta.Certificados.Entities.LogDescarga
+  parent: CasaToro.Consulta.Certificados.Entities
+  href: CasaToro.Consulta.Certificados.Entities.LogDescarga.html
+  name: LogDescarga
+  nameWithType: LogDescarga
+  fullName: CasaToro.Consulta.Certificados.Entities.LogDescarga
+- uid: CasaToro.Consulta.Certificados.Entities.LogLogin
+  commentId: T:CasaToro.Consulta.Certificados.Entities.LogLogin
+  parent: CasaToro.Consulta.Certificados.Entities
+  href: CasaToro.Consulta.Certificados.Entities.LogLogin.html
+  name: LogLogin
+  nameWithType: LogLogin
+  fullName: CasaToro.Consulta.Certificados.Entities.LogLogin
+- uid: CasaToro.Consulta.Certificados.Entities.LogLoginAdmin
+  commentId: T:CasaToro.Consulta.Certificados.Entities.LogLoginAdmin
+  parent: CasaToro.Consulta.Certificados.Entities
+  href: CasaToro.Consulta.Certificados.Entities.LogLoginAdmin.html
+  name: LogLoginAdmin
+  nameWithType: LogLoginAdmin
+  fullName: CasaToro.Consulta.Certificados.Entities.LogLoginAdmin
+- uid: CasaToro.Consulta.Certificados.Entities.ProveedoresMaster
+  commentId: T:CasaToro.Consulta.Certificados.Entities.ProveedoresMaster
+  parent: CasaToro.Consulta.Certificados.Entities
+  href: CasaToro.Consulta.Certificados.Entities.ProveedoresMaster.html
+  name: ProveedoresMaster
+  nameWithType: ProveedoresMaster
+  fullName: CasaToro.Consulta.Certificados.Entities.ProveedoresMaster
+- uid: CasaToro.Consulta.Certificados.Entities
+  commentId: N:CasaToro.Consulta.Certificados.Entities
+  href: CasaToro.html
+  name: CasaToro.Consulta.Certificados.Entities
+  nameWithType: CasaToro.Consulta.Certificados.Entities
+  fullName: CasaToro.Consulta.Certificados.Entities
+  spec.csharp:
+  - uid: CasaToro
+    name: CasaToro
+    href: CasaToro.html
+  - name: .
+  - uid: CasaToro.Consulta
+    name: Consulta
+    href: CasaToro.Consulta.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados
+    name: Certificados
+    href: CasaToro.Consulta.Certificados.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.Entities
+    name: Entities
+    href: CasaToro.Consulta.Certificados.Entities.html
+  spec.vb:
+  - uid: CasaToro
+    name: CasaToro
+    href: CasaToro.html
+  - name: .
+  - uid: CasaToro.Consulta
+    name: Consulta
+    href: CasaToro.Consulta.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados
+    name: Certificados
+    href: CasaToro.Consulta.Certificados.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.Entities
+    name: Entities
+    href: CasaToro.Consulta.Certificados.Entities.html

@@ -1,0 +1,22 @@
+﻿.custom-button{
+}
+
+form {
+    margin-top: 20px;
+    padding: 20px;
+    width: 60%;
+}
+
+.custom-input-group label {
+    font-size: 14px;
+    top: -11px;
+    text-align: center;
+}
+.custom-input-group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.custom-input-group select {
+   font-size: 14px;
+}    

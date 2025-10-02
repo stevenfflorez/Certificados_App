@@ -1,0 +1,673 @@
+### YamlMime:ManagedReference
+items:
+- uid: CasaToro.Consulta.Certificados.BL.Services.CertificatesService
+  commentId: T:CasaToro.Consulta.Certificados.BL.Services.CertificatesService
+  id: CertificatesService
+  parent: CasaToro.Consulta.Certificados.BL.Services
+  children:
+  - CasaToro.Consulta.Certificados.BL.Services.CertificatesService.#ctor(CasaToro.Consulta.Certificados.DAL.ApplicationDbContext)
+  - CasaToro.Consulta.Certificados.BL.Services.CertificatesService.GenerateCertificate(System.String,System.String,System.String,System.String,System.String)
+  - CasaToro.Consulta.Certificados.BL.Services.CertificatesService.GetAvalibleMonths
+  - CasaToro.Consulta.Certificados.BL.Services.CertificatesService.GetAvalibleYears
+  langs:
+  - csharp
+  - vb
+  name: CertificatesService
+  nameWithType: CertificatesService
+  fullName: CasaToro.Consulta.Certificados.BL.Services.CertificatesService
+  type: Class
+  source:
+    id: CertificatesService
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.BL\Services\CertificatesService.cs
+    startLine: 17
+  assemblies:
+  - CasaToro.Consulta.Certificados.BL
+  namespace: CasaToro.Consulta.Certificados.BL.Services
+  summary: Servicio que maneja la generación y obtención de certificados de retención (IVA, ICA, RTF) desde la base de datos y su exportación a PDF.
+  example: []
+  syntax:
+    content: public class CertificatesService
+    content.vb: Public Class CertificatesService
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.#ctor(CasaToro.Consulta.Certificados.DAL.ApplicationDbContext)
+  commentId: M:CasaToro.Consulta.Certificados.BL.Services.CertificatesService.#ctor(CasaToro.Consulta.Certificados.DAL.ApplicationDbContext)
+  id: '#ctor(CasaToro.Consulta.Certificados.DAL.ApplicationDbContext)'
+  parent: CasaToro.Consulta.Certificados.BL.Services.CertificatesService
+  langs:
+  - csharp
+  - vb
+  name: CertificatesService(ApplicationDbContext)
+  nameWithType: CertificatesService.CertificatesService(ApplicationDbContext)
+  fullName: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.CertificatesService(CasaToro.Consulta.Certificados.DAL.ApplicationDbContext)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.BL\Services\CertificatesService.cs
+    startLine: 26
+  assemblies:
+  - CasaToro.Consulta.Certificados.BL
+  namespace: CasaToro.Consulta.Certificados.BL.Services
+  summary: Constructor de la clase CertificatesService
+  example: []
+  syntax:
+    content: public CertificatesService(ApplicationDbContext context)
+    parameters:
+    - id: context
+      type: CasaToro.Consulta.Certificados.DAL.ApplicationDbContext
+      description: Contexto de la base de datos
+    content.vb: Public Sub New(context As ApplicationDbContext)
+  overload: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.#ctor*
+  nameWithType.vb: CertificatesService.New(ApplicationDbContext)
+  fullName.vb: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.New(CasaToro.Consulta.Certificados.DAL.ApplicationDbContext)
+  name.vb: New(ApplicationDbContext)
+- uid: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.GetAvalibleYears
+  commentId: M:CasaToro.Consulta.Certificados.BL.Services.CertificatesService.GetAvalibleYears
+  id: GetAvalibleYears
+  parent: CasaToro.Consulta.Certificados.BL.Services.CertificatesService
+  langs:
+  - csharp
+  - vb
+  name: GetAvalibleYears()
+  nameWithType: CertificatesService.GetAvalibleYears()
+  fullName: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.GetAvalibleYears()
+  type: Method
+  source:
+    id: GetAvalibleYears
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.BL\Services\CertificatesService.cs
+    startLine: 36
+  assemblies:
+  - CasaToro.Consulta.Certificados.BL
+  namespace: CasaToro.Consulta.Certificados.BL.Services
+  summary: Obtiene los meses disponibles para los certificados.
+  example: []
+  syntax:
+    content: public HashSet<int> GetAvalibleYears()
+    return:
+      type: System.Collections.Generic.HashSet{System.Int32}
+      description: Conjunto de meses disponibles para los certificados.
+    content.vb: Public Function GetAvalibleYears() As HashSet(Of Integer)
+  overload: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.GetAvalibleYears*
+- uid: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.GetAvalibleMonths
+  commentId: M:CasaToro.Consulta.Certificados.BL.Services.CertificatesService.GetAvalibleMonths
+  id: GetAvalibleMonths
+  parent: CasaToro.Consulta.Certificados.BL.Services.CertificatesService
+  langs:
+  - csharp
+  - vb
+  name: GetAvalibleMonths()
+  nameWithType: CertificatesService.GetAvalibleMonths()
+  fullName: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.GetAvalibleMonths()
+  type: Method
+  source:
+    id: GetAvalibleMonths
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.BL\Services\CertificatesService.cs
+    startLine: 51
+  assemblies:
+  - CasaToro.Consulta.Certificados.BL
+  namespace: CasaToro.Consulta.Certificados.BL.Services
+  summary: Obtiene los meses disponibles para los certificados.
+  example: []
+  syntax:
+    content: public HashSet<string> GetAvalibleMonths()
+    return:
+      type: System.Collections.Generic.HashSet{System.String}
+      description: Conjunto de meses disponibles para los certificados.
+    content.vb: Public Function GetAvalibleMonths() As HashSet(Of String)
+  overload: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.GetAvalibleMonths*
+- uid: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.GenerateCertificate(System.String,System.String,System.String,System.String,System.String)
+  commentId: M:CasaToro.Consulta.Certificados.BL.Services.CertificatesService.GenerateCertificate(System.String,System.String,System.String,System.String,System.String)
+  id: GenerateCertificate(System.String,System.String,System.String,System.String,System.String)
+  parent: CasaToro.Consulta.Certificados.BL.Services.CertificatesService
+  langs:
+  - csharp
+  - vb
+  name: GenerateCertificate(string, string, string, string, string)
+  nameWithType: CertificatesService.GenerateCertificate(string, string, string, string, string)
+  fullName: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.GenerateCertificate(string, string, string, string, string)
+  type: Method
+  source:
+    id: GenerateCertificate
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.BL\Services\CertificatesService.cs
+    startLine: 75
+  assemblies:
+  - CasaToro.Consulta.Certificados.BL
+  namespace: CasaToro.Consulta.Certificados.BL.Services
+  summary: Genera un certificado de retención.
+  example: []
+  syntax:
+    content: public string GenerateCertificate(string certificateType, string companyId, string year, string period, string nit)
+    parameters:
+    - id: certificateType
+      type: System.String
+      description: 'Tipo de certificado (1: IVA, 2: ICA, 3: RTF).'
+    - id: companyId
+      type: System.String
+      description: ID de la empresa.
+    - id: year
+      type: System.String
+      description: Año del certificado.
+    - id: period
+      type: System.String
+      description: Periodo del certificado.
+    - id: nit
+      type: System.String
+      description: NIT del proveedor.
+    return:
+      type: System.String
+      description: URL del certificado generado.
+    content.vb: Public Function GenerateCertificate(certificateType As String, companyId As String, year As String, period As String, nit As String) As String
+  overload: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.GenerateCertificate*
+  nameWithType.vb: CertificatesService.GenerateCertificate(String, String, String, String, String)
+  fullName.vb: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.GenerateCertificate(String, String, String, String, String)
+  name.vb: GenerateCertificate(String, String, String, String, String)
+references:
+- uid: CasaToro.Consulta.Certificados.BL.Services
+  commentId: N:CasaToro.Consulta.Certificados.BL.Services
+  href: CasaToro.html
+  name: CasaToro.Consulta.Certificados.BL.Services
+  nameWithType: CasaToro.Consulta.Certificados.BL.Services
+  fullName: CasaToro.Consulta.Certificados.BL.Services
+  spec.csharp:
+  - uid: CasaToro
+    name: CasaToro
+    href: CasaToro.html
+  - name: .
+  - uid: CasaToro.Consulta
+    name: Consulta
+    href: CasaToro.Consulta.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados
+    name: Certificados
+    href: CasaToro.Consulta.Certificados.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.BL
+    name: BL
+    href: CasaToro.Consulta.Certificados.BL.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.BL.Services
+    name: Services
+    href: CasaToro.Consulta.Certificados.BL.Services.html
+  spec.vb:
+  - uid: CasaToro
+    name: CasaToro
+    href: CasaToro.html
+  - name: .
+  - uid: CasaToro.Consulta
+    name: Consulta
+    href: CasaToro.Consulta.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados
+    name: Certificados
+    href: CasaToro.Consulta.Certificados.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.BL
+    name: BL
+    href: CasaToro.Consulta.Certificados.BL.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.BL.Services
+    name: Services
+    href: CasaToro.Consulta.Certificados.BL.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.#ctor*
+  commentId: Overload:CasaToro.Consulta.Certificados.BL.Services.CertificatesService.#ctor
+  href: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.html#CasaToro_Consulta_Certificados_BL_Services_CertificatesService__ctor_CasaToro_Consulta_Certificados_DAL_ApplicationDbContext_
+  name: CertificatesService
+  nameWithType: CertificatesService.CertificatesService
+  fullName: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.CertificatesService
+  nameWithType.vb: CertificatesService.New
+  fullName.vb: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.New
+  name.vb: New
+- uid: CasaToro.Consulta.Certificados.DAL.ApplicationDbContext
+  commentId: T:CasaToro.Consulta.Certificados.DAL.ApplicationDbContext
+  parent: CasaToro.Consulta.Certificados.DAL
+  href: CasaToro.Consulta.Certificados.DAL.ApplicationDbContext.html
+  name: ApplicationDbContext
+  nameWithType: ApplicationDbContext
+  fullName: CasaToro.Consulta.Certificados.DAL.ApplicationDbContext
+- uid: CasaToro.Consulta.Certificados.DAL
+  commentId: N:CasaToro.Consulta.Certificados.DAL
+  href: CasaToro.html
+  name: CasaToro.Consulta.Certificados.DAL
+  nameWithType: CasaToro.Consulta.Certificados.DAL
+  fullName: CasaToro.Consulta.Certificados.DAL
+  spec.csharp:
+  - uid: CasaToro
+    name: CasaToro
+    href: CasaToro.html
+  - name: .
+  - uid: CasaToro.Consulta
+    name: Consulta
+    href: CasaToro.Consulta.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados
+    name: Certificados
+    href: CasaToro.Consulta.Certificados.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.DAL
+    name: DAL
+    href: CasaToro.Consulta.Certificados.DAL.html
+  spec.vb:
+  - uid: CasaToro
+    name: CasaToro
+    href: CasaToro.html
+  - name: .
+  - uid: CasaToro.Consulta
+    name: Consulta
+    href: CasaToro.Consulta.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados
+    name: Certificados
+    href: CasaToro.Consulta.Certificados.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.DAL
+    name: DAL
+    href: CasaToro.Consulta.Certificados.DAL.html
+- uid: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.GetAvalibleYears*
+  commentId: Overload:CasaToro.Consulta.Certificados.BL.Services.CertificatesService.GetAvalibleYears
+  href: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.html#CasaToro_Consulta_Certificados_BL_Services_CertificatesService_GetAvalibleYears
+  name: GetAvalibleYears
+  nameWithType: CertificatesService.GetAvalibleYears
+  fullName: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.GetAvalibleYears
+- uid: System.Collections.Generic.HashSet{System.Int32}
+  commentId: T:System.Collections.Generic.HashSet{System.Int32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.HashSet`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  name: HashSet<int>
+  nameWithType: HashSet<int>
+  fullName: System.Collections.Generic.HashSet<int>
+  nameWithType.vb: HashSet(Of Integer)
+  fullName.vb: System.Collections.Generic.HashSet(Of Integer)
+  name.vb: HashSet(Of Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Collections.Generic.HashSet`1
+  commentId: T:System.Collections.Generic.HashSet`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  name: HashSet<T>
+  nameWithType: HashSet<T>
+  fullName: System.Collections.Generic.HashSet<T>
+  nameWithType.vb: HashSet(Of T)
+  fullName.vb: System.Collections.Generic.HashSet(Of T)
+  name.vb: HashSet(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.GetAvalibleMonths*
+  commentId: Overload:CasaToro.Consulta.Certificados.BL.Services.CertificatesService.GetAvalibleMonths
+  href: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.html#CasaToro_Consulta_Certificados_BL_Services_CertificatesService_GetAvalibleMonths
+  name: GetAvalibleMonths
+  nameWithType: CertificatesService.GetAvalibleMonths
+  fullName: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.GetAvalibleMonths
+- uid: System.Collections.Generic.HashSet{System.String}
+  commentId: T:System.Collections.Generic.HashSet{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.HashSet`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  name: HashSet<string>
+  nameWithType: HashSet<string>
+  fullName: System.Collections.Generic.HashSet<string>
+  nameWithType.vb: HashSet(Of String)
+  fullName.vb: System.Collections.Generic.HashSet(Of String)
+  name.vb: HashSet(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.GenerateCertificate*
+  commentId: Overload:CasaToro.Consulta.Certificados.BL.Services.CertificatesService.GenerateCertificate
+  href: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.html#CasaToro_Consulta_Certificados_BL_Services_CertificatesService_GenerateCertificate_System_String_System_String_System_String_System_String_System_String_
+  name: GenerateCertificate
+  nameWithType: CertificatesService.GenerateCertificate
+  fullName: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.GenerateCertificate
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

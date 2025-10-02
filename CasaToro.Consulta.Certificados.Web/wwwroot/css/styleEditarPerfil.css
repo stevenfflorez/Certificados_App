@@ -1,0 +1,78 @@
+﻿@import url('colors.css');
+
+.profile-container {
+    width: 100%;
+}
+
+.profile-header {
+    background-color: var(--blue-header);
+    border-radius: 25px 25px 0px 0px;
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    color: white;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1% auto;
+}
+
+.provider-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    text-transform:capitalize;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 64vh;
+    border: 1px solid gray;
+    border-radius: 0px 0px 25px 25px;
+    align-items: center;
+}
+
+.profile-info form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem;
+  grid-gap: 2rem;
+  width: 100%;
+
+}
+
+.form-input-container {
+    width: 100%;
+}
+
+.buttons-container {
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid gray;
+    padding: 20px;
+}
+
+.buttons-container button {
+    margin: 0 30px;
+    width:30%;
+}
+
+#alerts-container-edit {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 65%;
+    height: 2rem;
+}
+
+
+@media (min-width: 1920px) {
+    .profile-info {
+        height: 75vh;
+    }
+}

@@ -1,0 +1,906 @@
+### YamlMime:ManagedReference
+items:
+- uid: CasaToro.Consulta.Certificados.BL.Services.ProviderService
+  commentId: T:CasaToro.Consulta.Certificados.BL.Services.ProviderService
+  id: ProviderService
+  parent: CasaToro.Consulta.Certificados.BL.Services
+  children:
+  - CasaToro.Consulta.Certificados.BL.Services.ProviderService.#ctor(CasaToro.Consulta.Certificados.DAL.ApplicationDbContext)
+  - CasaToro.Consulta.Certificados.BL.Services.ProviderService.GetCompaniesForProvider(System.String)
+  - CasaToro.Consulta.Certificados.BL.Services.ProviderService.RestoreProviderPassword(System.String)
+  - CasaToro.Consulta.Certificados.BL.Services.ProviderService.UpdatePassword(CasaToro.Consulta.Certificados.Entities.ProveedoresMaster)
+  - CasaToro.Consulta.Certificados.BL.Services.ProviderService.UpdateProvider(CasaToro.Consulta.Certificados.Entities.ProveedoresMaster)
+  - CasaToro.Consulta.Certificados.BL.Services.ProviderService.getPoviderByNit(System.String)
+  - CasaToro.Consulta.Certificados.BL.Services.ProviderService.getProviders(System.Int32,System.Int32,System.String)
+  - CasaToro.Consulta.Certificados.BL.Services.ProviderService.getProvidersCount(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ProviderService
+  nameWithType: ProviderService
+  fullName: CasaToro.Consulta.Certificados.BL.Services.ProviderService
+  type: Class
+  source:
+    id: ProviderService
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.BL\Services\ProviderService.cs
+    startLine: 9
+  assemblies:
+  - CasaToro.Consulta.Certificados.BL
+  namespace: CasaToro.Consulta.Certificados.BL.Services
+  summary: Servicio que maneja las operaciones relacionadas con los proveedores, incluyendo la gestión de información y autenticación de proveedores.
+  example: []
+  syntax:
+    content: public class ProviderService
+    content.vb: Public Class ProviderService
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CasaToro.Consulta.Certificados.BL.Services.ProviderService.#ctor(CasaToro.Consulta.Certificados.DAL.ApplicationDbContext)
+  commentId: M:CasaToro.Consulta.Certificados.BL.Services.ProviderService.#ctor(CasaToro.Consulta.Certificados.DAL.ApplicationDbContext)
+  id: '#ctor(CasaToro.Consulta.Certificados.DAL.ApplicationDbContext)'
+  parent: CasaToro.Consulta.Certificados.BL.Services.ProviderService
+  langs:
+  - csharp
+  - vb
+  name: ProviderService(ApplicationDbContext)
+  nameWithType: ProviderService.ProviderService(ApplicationDbContext)
+  fullName: CasaToro.Consulta.Certificados.BL.Services.ProviderService.ProviderService(CasaToro.Consulta.Certificados.DAL.ApplicationDbContext)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.BL\Services\ProviderService.cs
+    startLine: 17
+  assemblies:
+  - CasaToro.Consulta.Certificados.BL
+  namespace: CasaToro.Consulta.Certificados.BL.Services
+  summary: Constructor de la clase ProviderService.
+  example: []
+  syntax:
+    content: public ProviderService(ApplicationDbContext context)
+    parameters:
+    - id: context
+      type: CasaToro.Consulta.Certificados.DAL.ApplicationDbContext
+      description: Contexto de la base de datos.
+    content.vb: Public Sub New(context As ApplicationDbContext)
+  overload: CasaToro.Consulta.Certificados.BL.Services.ProviderService.#ctor*
+  nameWithType.vb: ProviderService.New(ApplicationDbContext)
+  fullName.vb: CasaToro.Consulta.Certificados.BL.Services.ProviderService.New(CasaToro.Consulta.Certificados.DAL.ApplicationDbContext)
+  name.vb: New(ApplicationDbContext)
+- uid: CasaToro.Consulta.Certificados.BL.Services.ProviderService.getProviders(System.Int32,System.Int32,System.String)
+  commentId: M:CasaToro.Consulta.Certificados.BL.Services.ProviderService.getProviders(System.Int32,System.Int32,System.String)
+  id: getProviders(System.Int32,System.Int32,System.String)
+  parent: CasaToro.Consulta.Certificados.BL.Services.ProviderService
+  langs:
+  - csharp
+  - vb
+  name: getProviders(int, int, string?)
+  nameWithType: ProviderService.getProviders(int, int, string?)
+  fullName: CasaToro.Consulta.Certificados.BL.Services.ProviderService.getProviders(int, int, string?)
+  type: Method
+  source:
+    id: getProviders
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.BL\Services\ProviderService.cs
+    startLine: 30
+  assemblies:
+  - CasaToro.Consulta.Certificados.BL
+  namespace: CasaToro.Consulta.Certificados.BL.Services
+  summary: Obtiene una lista de proveedores con paginación y búsqueda opcional.
+  example: []
+  syntax:
+    content: public List<ProveedoresMaster> getProviders(int pageNumber, int pageSize, string? search = null)
+    parameters:
+    - id: pageNumber
+      type: System.Int32
+      description: Número de la página actual.
+    - id: pageSize
+      type: System.Int32
+      description: Cantidad de elementos por página.
+    - id: search
+      type: System.String
+      description: Término de búsqueda opcional para filtrar proveedores por NIT o nombre.
+    return:
+      type: System.Collections.Generic.List{CasaToro.Consulta.Certificados.Entities.ProveedoresMaster}
+      description: Lista de proveedores que coinciden con los criterios de búsqueda y paginación.
+    content.vb: Public Function getProviders(pageNumber As Integer, pageSize As Integer, search As String = Nothing) As List(Of ProveedoresMaster)
+  overload: CasaToro.Consulta.Certificados.BL.Services.ProviderService.getProviders*
+  exceptions:
+  - type: System.Exception
+    commentId: T:System.Exception
+    description: Lanzada cuando ocurre un error al obtener la lista de proveedores.
+  nameWithType.vb: ProviderService.getProviders(Integer, Integer, String)
+  fullName.vb: CasaToro.Consulta.Certificados.BL.Services.ProviderService.getProviders(Integer, Integer, String)
+  name.vb: getProviders(Integer, Integer, String)
+- uid: CasaToro.Consulta.Certificados.BL.Services.ProviderService.getProvidersCount(System.String)
+  commentId: M:CasaToro.Consulta.Certificados.BL.Services.ProviderService.getProvidersCount(System.String)
+  id: getProvidersCount(System.String)
+  parent: CasaToro.Consulta.Certificados.BL.Services.ProviderService
+  langs:
+  - csharp
+  - vb
+  name: getProvidersCount(string?)
+  nameWithType: ProviderService.getProvidersCount(string?)
+  fullName: CasaToro.Consulta.Certificados.BL.Services.ProviderService.getProvidersCount(string?)
+  type: Method
+  source:
+    id: getProvidersCount
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.BL\Services\ProviderService.cs
+    startLine: 61
+  assemblies:
+  - CasaToro.Consulta.Certificados.BL
+  namespace: CasaToro.Consulta.Certificados.BL.Services
+  summary: Obtiene el total de proveedores que coinciden con un término de búsqueda opcional.
+  example: []
+  syntax:
+    content: public int getProvidersCount(string? search = null)
+    parameters:
+    - id: search
+      type: System.String
+      description: Término de búsqueda opcional para filtrar proveedores por NIT o nombre.
+    return:
+      type: System.Int32
+      description: Cantidad total de proveedores que coinciden con el término de búsqueda.
+    content.vb: Public Function getProvidersCount(search As String = Nothing) As Integer
+  overload: CasaToro.Consulta.Certificados.BL.Services.ProviderService.getProvidersCount*
+  nameWithType.vb: ProviderService.getProvidersCount(String)
+  fullName.vb: CasaToro.Consulta.Certificados.BL.Services.ProviderService.getProvidersCount(String)
+  name.vb: getProvidersCount(String)
+- uid: CasaToro.Consulta.Certificados.BL.Services.ProviderService.getPoviderByNit(System.String)
+  commentId: M:CasaToro.Consulta.Certificados.BL.Services.ProviderService.getPoviderByNit(System.String)
+  id: getPoviderByNit(System.String)
+  parent: CasaToro.Consulta.Certificados.BL.Services.ProviderService
+  langs:
+  - csharp
+  - vb
+  name: getPoviderByNit(string)
+  nameWithType: ProviderService.getPoviderByNit(string)
+  fullName: CasaToro.Consulta.Certificados.BL.Services.ProviderService.getPoviderByNit(string)
+  type: Method
+  source:
+    id: getPoviderByNit
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.BL\Services\ProviderService.cs
+    startLine: 75
+  assemblies:
+  - CasaToro.Consulta.Certificados.BL
+  namespace: CasaToro.Consulta.Certificados.BL.Services
+  summary: Obtiene un proveedor por su NIT.
+  example: []
+  syntax:
+    content: public ProveedoresMaster getPoviderByNit(string nit)
+    parameters:
+    - id: nit
+      type: System.String
+      description: NIT del proveedor.
+    return:
+      type: CasaToro.Consulta.Certificados.Entities.ProveedoresMaster
+      description: Proveedor que coincide con el NIT proporcionado.
+    content.vb: Public Function getPoviderByNit(nit As String) As ProveedoresMaster
+  overload: CasaToro.Consulta.Certificados.BL.Services.ProviderService.getPoviderByNit*
+  nameWithType.vb: ProviderService.getPoviderByNit(String)
+  fullName.vb: CasaToro.Consulta.Certificados.BL.Services.ProviderService.getPoviderByNit(String)
+  name.vb: getPoviderByNit(String)
+- uid: CasaToro.Consulta.Certificados.BL.Services.ProviderService.GetCompaniesForProvider(System.String)
+  commentId: M:CasaToro.Consulta.Certificados.BL.Services.ProviderService.GetCompaniesForProvider(System.String)
+  id: GetCompaniesForProvider(System.String)
+  parent: CasaToro.Consulta.Certificados.BL.Services.ProviderService
+  langs:
+  - csharp
+  - vb
+  name: GetCompaniesForProvider(string)
+  nameWithType: ProviderService.GetCompaniesForProvider(string)
+  fullName: CasaToro.Consulta.Certificados.BL.Services.ProviderService.GetCompaniesForProvider(string)
+  type: Method
+  source:
+    id: GetCompaniesForProvider
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.BL\Services\ProviderService.cs
+    startLine: 85
+  assemblies:
+  - CasaToro.Consulta.Certificados.BL
+  namespace: CasaToro.Consulta.Certificados.BL.Services
+  summary: Obtiene una lista de empresas asociadas a un proveedor por su NIT.
+  example: []
+  syntax:
+    content: public List<EmpresasMaster> GetCompaniesForProvider(string nit)
+    parameters:
+    - id: nit
+      type: System.String
+      description: NIT del proveedor.
+    return:
+      type: System.Collections.Generic.List{CasaToro.Consulta.Certificados.Entities.EmpresasMaster}
+      description: Lista de empresas asociadas al proveedor.
+    content.vb: Public Function GetCompaniesForProvider(nit As String) As List(Of EmpresasMaster)
+  overload: CasaToro.Consulta.Certificados.BL.Services.ProviderService.GetCompaniesForProvider*
+  nameWithType.vb: ProviderService.GetCompaniesForProvider(String)
+  fullName.vb: CasaToro.Consulta.Certificados.BL.Services.ProviderService.GetCompaniesForProvider(String)
+  name.vb: GetCompaniesForProvider(String)
+- uid: CasaToro.Consulta.Certificados.BL.Services.ProviderService.UpdateProvider(CasaToro.Consulta.Certificados.Entities.ProveedoresMaster)
+  commentId: M:CasaToro.Consulta.Certificados.BL.Services.ProviderService.UpdateProvider(CasaToro.Consulta.Certificados.Entities.ProveedoresMaster)
+  id: UpdateProvider(CasaToro.Consulta.Certificados.Entities.ProveedoresMaster)
+  parent: CasaToro.Consulta.Certificados.BL.Services.ProviderService
+  langs:
+  - csharp
+  - vb
+  name: UpdateProvider(ProveedoresMaster)
+  nameWithType: ProviderService.UpdateProvider(ProveedoresMaster)
+  fullName: CasaToro.Consulta.Certificados.BL.Services.ProviderService.UpdateProvider(CasaToro.Consulta.Certificados.Entities.ProveedoresMaster)
+  type: Method
+  source:
+    id: UpdateProvider
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.BL\Services\ProviderService.cs
+    startLine: 99
+  assemblies:
+  - CasaToro.Consulta.Certificados.BL
+  namespace: CasaToro.Consulta.Certificados.BL.Services
+  summary: Actualiza la información de un proveedor.
+  example: []
+  syntax:
+    content: public void UpdateProvider(ProveedoresMaster provider)
+    parameters:
+    - id: provider
+      type: CasaToro.Consulta.Certificados.Entities.ProveedoresMaster
+      description: Objeto ProveedoresMaster con la información actualizada del proveedor.
+    content.vb: Public Sub UpdateProvider(provider As ProveedoresMaster)
+  overload: CasaToro.Consulta.Certificados.BL.Services.ProviderService.UpdateProvider*
+  exceptions:
+  - type: System.Exception
+    commentId: T:System.Exception
+    description: Lanzada cuando ocurre un error al actualizar el proveedor.
+- uid: CasaToro.Consulta.Certificados.BL.Services.ProviderService.RestoreProviderPassword(System.String)
+  commentId: M:CasaToro.Consulta.Certificados.BL.Services.ProviderService.RestoreProviderPassword(System.String)
+  id: RestoreProviderPassword(System.String)
+  parent: CasaToro.Consulta.Certificados.BL.Services.ProviderService
+  langs:
+  - csharp
+  - vb
+  name: RestoreProviderPassword(string)
+  nameWithType: ProviderService.RestoreProviderPassword(string)
+  fullName: CasaToro.Consulta.Certificados.BL.Services.ProviderService.RestoreProviderPassword(string)
+  type: Method
+  source:
+    id: RestoreProviderPassword
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.BL\Services\ProviderService.cs
+    startLine: 122
+  assemblies:
+  - CasaToro.Consulta.Certificados.BL
+  namespace: CasaToro.Consulta.Certificados.BL.Services
+  summary: Restaura la contraseña de un proveedor a su valor predeterminado (NIT).
+  example: []
+  syntax:
+    content: public void RestoreProviderPassword(string nit)
+    parameters:
+    - id: nit
+      type: System.String
+      description: NIT del proveedor.
+    content.vb: Public Sub RestoreProviderPassword(nit As String)
+  overload: CasaToro.Consulta.Certificados.BL.Services.ProviderService.RestoreProviderPassword*
+  exceptions:
+  - type: System.Exception
+    commentId: T:System.Exception
+    description: Lanzada cuando ocurre un error al restaurar la contraseña del proveedor.
+  nameWithType.vb: ProviderService.RestoreProviderPassword(String)
+  fullName.vb: CasaToro.Consulta.Certificados.BL.Services.ProviderService.RestoreProviderPassword(String)
+  name.vb: RestoreProviderPassword(String)
+- uid: CasaToro.Consulta.Certificados.BL.Services.ProviderService.UpdatePassword(CasaToro.Consulta.Certificados.Entities.ProveedoresMaster)
+  commentId: M:CasaToro.Consulta.Certificados.BL.Services.ProviderService.UpdatePassword(CasaToro.Consulta.Certificados.Entities.ProveedoresMaster)
+  id: UpdatePassword(CasaToro.Consulta.Certificados.Entities.ProveedoresMaster)
+  parent: CasaToro.Consulta.Certificados.BL.Services.ProviderService
+  langs:
+  - csharp
+  - vb
+  name: UpdatePassword(ProveedoresMaster)
+  nameWithType: ProviderService.UpdatePassword(ProveedoresMaster)
+  fullName: CasaToro.Consulta.Certificados.BL.Services.ProviderService.UpdatePassword(CasaToro.Consulta.Certificados.Entities.ProveedoresMaster)
+  type: Method
+  source:
+    id: UpdatePassword
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.BL\Services\ProviderService.cs
+    startLine: 144
+  assemblies:
+  - CasaToro.Consulta.Certificados.BL
+  namespace: CasaToro.Consulta.Certificados.BL.Services
+  summary: Actualiza la contraseña de un proveedor.
+  example: []
+  syntax:
+    content: public void UpdatePassword(ProveedoresMaster provider)
+    parameters:
+    - id: provider
+      type: CasaToro.Consulta.Certificados.Entities.ProveedoresMaster
+      description: Objeto ProveedoresMaster con la nueva contraseña del proveedor.
+    content.vb: Public Sub UpdatePassword(provider As ProveedoresMaster)
+  overload: CasaToro.Consulta.Certificados.BL.Services.ProviderService.UpdatePassword*
+  exceptions:
+  - type: System.Exception
+    commentId: T:System.Exception
+    description: Lanzada cuando ocurre un error al actualizar la contraseña del proveedor.
+references:
+- uid: CasaToro.Consulta.Certificados.BL.Services
+  commentId: N:CasaToro.Consulta.Certificados.BL.Services
+  href: CasaToro.html
+  name: CasaToro.Consulta.Certificados.BL.Services
+  nameWithType: CasaToro.Consulta.Certificados.BL.Services
+  fullName: CasaToro.Consulta.Certificados.BL.Services
+  spec.csharp:
+  - uid: CasaToro
+    name: CasaToro
+    href: CasaToro.html
+  - name: .
+  - uid: CasaToro.Consulta
+    name: Consulta
+    href: CasaToro.Consulta.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados
+    name: Certificados
+    href: CasaToro.Consulta.Certificados.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.BL
+    name: BL
+    href: CasaToro.Consulta.Certificados.BL.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.BL.Services
+    name: Services
+    href: CasaToro.Consulta.Certificados.BL.Services.html
+  spec.vb:
+  - uid: CasaToro
+    name: CasaToro
+    href: CasaToro.html
+  - name: .
+  - uid: CasaToro.Consulta
+    name: Consulta
+    href: CasaToro.Consulta.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados
+    name: Certificados
+    href: CasaToro.Consulta.Certificados.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.BL
+    name: BL
+    href: CasaToro.Consulta.Certificados.BL.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.BL.Services
+    name: Services
+    href: CasaToro.Consulta.Certificados.BL.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CasaToro.Consulta.Certificados.BL.Services.ProviderService.#ctor*
+  commentId: Overload:CasaToro.Consulta.Certificados.BL.Services.ProviderService.#ctor
+  href: CasaToro.Consulta.Certificados.BL.Services.ProviderService.html#CasaToro_Consulta_Certificados_BL_Services_ProviderService__ctor_CasaToro_Consulta_Certificados_DAL_ApplicationDbContext_
+  name: ProviderService
+  nameWithType: ProviderService.ProviderService
+  fullName: CasaToro.Consulta.Certificados.BL.Services.ProviderService.ProviderService
+  nameWithType.vb: ProviderService.New
+  fullName.vb: CasaToro.Consulta.Certificados.BL.Services.ProviderService.New
+  name.vb: New
+- uid: CasaToro.Consulta.Certificados.DAL.ApplicationDbContext
+  commentId: T:CasaToro.Consulta.Certificados.DAL.ApplicationDbContext
+  parent: CasaToro.Consulta.Certificados.DAL
+  href: CasaToro.Consulta.Certificados.DAL.ApplicationDbContext.html
+  name: ApplicationDbContext
+  nameWithType: ApplicationDbContext
+  fullName: CasaToro.Consulta.Certificados.DAL.ApplicationDbContext
+- uid: CasaToro.Consulta.Certificados.DAL
+  commentId: N:CasaToro.Consulta.Certificados.DAL
+  href: CasaToro.html
+  name: CasaToro.Consulta.Certificados.DAL
+  nameWithType: CasaToro.Consulta.Certificados.DAL
+  fullName: CasaToro.Consulta.Certificados.DAL
+  spec.csharp:
+  - uid: CasaToro
+    name: CasaToro
+    href: CasaToro.html
+  - name: .
+  - uid: CasaToro.Consulta
+    name: Consulta
+    href: CasaToro.Consulta.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados
+    name: Certificados
+    href: CasaToro.Consulta.Certificados.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.DAL
+    name: DAL
+    href: CasaToro.Consulta.Certificados.DAL.html
+  spec.vb:
+  - uid: CasaToro
+    name: CasaToro
+    href: CasaToro.html
+  - name: .
+  - uid: CasaToro.Consulta
+    name: Consulta
+    href: CasaToro.Consulta.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados
+    name: Certificados
+    href: CasaToro.Consulta.Certificados.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.DAL
+    name: DAL
+    href: CasaToro.Consulta.Certificados.DAL.html
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: CasaToro.Consulta.Certificados.BL.Services.ProviderService.getProviders*
+  commentId: Overload:CasaToro.Consulta.Certificados.BL.Services.ProviderService.getProviders
+  href: CasaToro.Consulta.Certificados.BL.Services.ProviderService.html#CasaToro_Consulta_Certificados_BL_Services_ProviderService_getProviders_System_Int32_System_Int32_System_String_
+  name: getProviders
+  nameWithType: ProviderService.getProviders
+  fullName: CasaToro.Consulta.Certificados.BL.Services.ProviderService.getProviders
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Collections.Generic.List{CasaToro.Consulta.Certificados.Entities.ProveedoresMaster}
+  commentId: T:System.Collections.Generic.List{CasaToro.Consulta.Certificados.Entities.ProveedoresMaster}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<ProveedoresMaster>
+  nameWithType: List<ProveedoresMaster>
+  fullName: System.Collections.Generic.List<CasaToro.Consulta.Certificados.Entities.ProveedoresMaster>
+  nameWithType.vb: List(Of ProveedoresMaster)
+  fullName.vb: System.Collections.Generic.List(Of CasaToro.Consulta.Certificados.Entities.ProveedoresMaster)
+  name.vb: List(Of ProveedoresMaster)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: CasaToro.Consulta.Certificados.Entities.ProveedoresMaster
+    name: ProveedoresMaster
+    href: CasaToro.Consulta.Certificados.Entities.ProveedoresMaster.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: CasaToro.Consulta.Certificados.Entities.ProveedoresMaster
+    name: ProveedoresMaster
+    href: CasaToro.Consulta.Certificados.Entities.ProveedoresMaster.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: CasaToro.Consulta.Certificados.BL.Services.ProviderService.getProvidersCount*
+  commentId: Overload:CasaToro.Consulta.Certificados.BL.Services.ProviderService.getProvidersCount
+  href: CasaToro.Consulta.Certificados.BL.Services.ProviderService.html#CasaToro_Consulta_Certificados_BL_Services_ProviderService_getProvidersCount_System_String_
+  name: getProvidersCount
+  nameWithType: ProviderService.getProvidersCount
+  fullName: CasaToro.Consulta.Certificados.BL.Services.ProviderService.getProvidersCount
+- uid: CasaToro.Consulta.Certificados.BL.Services.ProviderService.getPoviderByNit*
+  commentId: Overload:CasaToro.Consulta.Certificados.BL.Services.ProviderService.getPoviderByNit
+  href: CasaToro.Consulta.Certificados.BL.Services.ProviderService.html#CasaToro_Consulta_Certificados_BL_Services_ProviderService_getPoviderByNit_System_String_
+  name: getPoviderByNit
+  nameWithType: ProviderService.getPoviderByNit
+  fullName: CasaToro.Consulta.Certificados.BL.Services.ProviderService.getPoviderByNit
+- uid: CasaToro.Consulta.Certificados.Entities.ProveedoresMaster
+  commentId: T:CasaToro.Consulta.Certificados.Entities.ProveedoresMaster
+  parent: CasaToro.Consulta.Certificados.Entities
+  href: CasaToro.Consulta.Certificados.Entities.ProveedoresMaster.html
+  name: ProveedoresMaster
+  nameWithType: ProveedoresMaster
+  fullName: CasaToro.Consulta.Certificados.Entities.ProveedoresMaster
+- uid: CasaToro.Consulta.Certificados.Entities
+  commentId: N:CasaToro.Consulta.Certificados.Entities
+  href: CasaToro.html
+  name: CasaToro.Consulta.Certificados.Entities
+  nameWithType: CasaToro.Consulta.Certificados.Entities
+  fullName: CasaToro.Consulta.Certificados.Entities
+  spec.csharp:
+  - uid: CasaToro
+    name: CasaToro
+    href: CasaToro.html
+  - name: .
+  - uid: CasaToro.Consulta
+    name: Consulta
+    href: CasaToro.Consulta.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados
+    name: Certificados
+    href: CasaToro.Consulta.Certificados.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.Entities
+    name: Entities
+    href: CasaToro.Consulta.Certificados.Entities.html
+  spec.vb:
+  - uid: CasaToro
+    name: CasaToro
+    href: CasaToro.html
+  - name: .
+  - uid: CasaToro.Consulta
+    name: Consulta
+    href: CasaToro.Consulta.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados
+    name: Certificados
+    href: CasaToro.Consulta.Certificados.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.Entities
+    name: Entities
+    href: CasaToro.Consulta.Certificados.Entities.html
+- uid: CasaToro.Consulta.Certificados.BL.Services.ProviderService.GetCompaniesForProvider*
+  commentId: Overload:CasaToro.Consulta.Certificados.BL.Services.ProviderService.GetCompaniesForProvider
+  href: CasaToro.Consulta.Certificados.BL.Services.ProviderService.html#CasaToro_Consulta_Certificados_BL_Services_ProviderService_GetCompaniesForProvider_System_String_
+  name: GetCompaniesForProvider
+  nameWithType: ProviderService.GetCompaniesForProvider
+  fullName: CasaToro.Consulta.Certificados.BL.Services.ProviderService.GetCompaniesForProvider
+- uid: System.Collections.Generic.List{CasaToro.Consulta.Certificados.Entities.EmpresasMaster}
+  commentId: T:System.Collections.Generic.List{CasaToro.Consulta.Certificados.Entities.EmpresasMaster}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<EmpresasMaster>
+  nameWithType: List<EmpresasMaster>
+  fullName: System.Collections.Generic.List<CasaToro.Consulta.Certificados.Entities.EmpresasMaster>
+  nameWithType.vb: List(Of EmpresasMaster)
+  fullName.vb: System.Collections.Generic.List(Of CasaToro.Consulta.Certificados.Entities.EmpresasMaster)
+  name.vb: List(Of EmpresasMaster)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: CasaToro.Consulta.Certificados.Entities.EmpresasMaster
+    name: EmpresasMaster
+    href: CasaToro.Consulta.Certificados.Entities.EmpresasMaster.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: CasaToro.Consulta.Certificados.Entities.EmpresasMaster
+    name: EmpresasMaster
+    href: CasaToro.Consulta.Certificados.Entities.EmpresasMaster.html
+  - name: )
+- uid: CasaToro.Consulta.Certificados.BL.Services.ProviderService.UpdateProvider*
+  commentId: Overload:CasaToro.Consulta.Certificados.BL.Services.ProviderService.UpdateProvider
+  href: CasaToro.Consulta.Certificados.BL.Services.ProviderService.html#CasaToro_Consulta_Certificados_BL_Services_ProviderService_UpdateProvider_CasaToro_Consulta_Certificados_Entities_ProveedoresMaster_
+  name: UpdateProvider
+  nameWithType: ProviderService.UpdateProvider
+  fullName: CasaToro.Consulta.Certificados.BL.Services.ProviderService.UpdateProvider
+- uid: CasaToro.Consulta.Certificados.BL.Services.ProviderService.RestoreProviderPassword*
+  commentId: Overload:CasaToro.Consulta.Certificados.BL.Services.ProviderService.RestoreProviderPassword
+  href: CasaToro.Consulta.Certificados.BL.Services.ProviderService.html#CasaToro_Consulta_Certificados_BL_Services_ProviderService_RestoreProviderPassword_System_String_
+  name: RestoreProviderPassword
+  nameWithType: ProviderService.RestoreProviderPassword
+  fullName: CasaToro.Consulta.Certificados.BL.Services.ProviderService.RestoreProviderPassword
+- uid: CasaToro.Consulta.Certificados.BL.Services.ProviderService.UpdatePassword*
+  commentId: Overload:CasaToro.Consulta.Certificados.BL.Services.ProviderService.UpdatePassword
+  href: CasaToro.Consulta.Certificados.BL.Services.ProviderService.html#CasaToro_Consulta_Certificados_BL_Services_ProviderService_UpdatePassword_CasaToro_Consulta_Certificados_Entities_ProveedoresMaster_
+  name: UpdatePassword
+  nameWithType: ProviderService.UpdatePassword
+  fullName: CasaToro.Consulta.Certificados.BL.Services.ProviderService.UpdatePassword

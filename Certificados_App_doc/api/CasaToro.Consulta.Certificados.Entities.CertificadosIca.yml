@@ -1,0 +1,821 @@
+### YamlMime:ManagedReference
+items:
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca
+  commentId: T:CasaToro.Consulta.Certificados.Entities.CertificadosIca
+  id: CertificadosIca
+  parent: CasaToro.Consulta.Certificados.Entities
+  children:
+  - CasaToro.Consulta.Certificados.Entities.CertificadosIca.Ano
+  - CasaToro.Consulta.Certificados.Entities.CertificadosIca.Base
+  - CasaToro.Consulta.Certificados.Entities.CertificadosIca.CiudadExpedido
+  - CasaToro.Consulta.Certificados.Entities.CertificadosIca.CiudadPago
+  - CasaToro.Consulta.Certificados.Entities.CertificadosIca.Concepto
+  - CasaToro.Consulta.Certificados.Entities.CertificadosIca.FechaExpedicion
+  - CasaToro.Consulta.Certificados.Entities.CertificadosIca.IdEmpresa
+  - CasaToro.Consulta.Certificados.Entities.CertificadosIca.IdEmpresaNavigation
+  - CasaToro.Consulta.Certificados.Entities.CertificadosIca.IdIca
+  - CasaToro.Consulta.Certificados.Entities.CertificadosIca.Nit
+  - CasaToro.Consulta.Certificados.Entities.CertificadosIca.NitNavigation
+  - CasaToro.Consulta.Certificados.Entities.CertificadosIca.Periodo
+  - CasaToro.Consulta.Certificados.Entities.CertificadosIca.Porcentaje
+  - CasaToro.Consulta.Certificados.Entities.CertificadosIca.Retenido
+  langs:
+  - csharp
+  - vb
+  name: CertificadosIca
+  nameWithType: CertificadosIca
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca
+  type: Class
+  source:
+    id: CertificadosIca
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\CertificadosIca.cs
+    startLine: 5
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public class CertificadosIca
+    content.vb: Public Class CertificadosIca
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.IdIca
+  commentId: P:CasaToro.Consulta.Certificados.Entities.CertificadosIca.IdIca
+  id: IdIca
+  parent: CasaToro.Consulta.Certificados.Entities.CertificadosIca
+  langs:
+  - csharp
+  - vb
+  name: IdIca
+  nameWithType: CertificadosIca.IdIca
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.IdIca
+  type: Property
+  source:
+    id: IdIca
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\CertificadosIca.cs
+    startLine: 7
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public Guid IdIca { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property IdIca As Guid
+  overload: CasaToro.Consulta.Certificados.Entities.CertificadosIca.IdIca*
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Nit
+  commentId: P:CasaToro.Consulta.Certificados.Entities.CertificadosIca.Nit
+  id: Nit
+  parent: CasaToro.Consulta.Certificados.Entities.CertificadosIca
+  langs:
+  - csharp
+  - vb
+  name: Nit
+  nameWithType: CertificadosIca.Nit
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Nit
+  type: Property
+  source:
+    id: Nit
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\CertificadosIca.cs
+    startLine: 9
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public string Nit { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Nit As String
+  overload: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Nit*
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.IdEmpresa
+  commentId: P:CasaToro.Consulta.Certificados.Entities.CertificadosIca.IdEmpresa
+  id: IdEmpresa
+  parent: CasaToro.Consulta.Certificados.Entities.CertificadosIca
+  langs:
+  - csharp
+  - vb
+  name: IdEmpresa
+  nameWithType: CertificadosIca.IdEmpresa
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.IdEmpresa
+  type: Property
+  source:
+    id: IdEmpresa
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\CertificadosIca.cs
+    startLine: 11
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public int IdEmpresa { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property IdEmpresa As Integer
+  overload: CasaToro.Consulta.Certificados.Entities.CertificadosIca.IdEmpresa*
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Concepto
+  commentId: P:CasaToro.Consulta.Certificados.Entities.CertificadosIca.Concepto
+  id: Concepto
+  parent: CasaToro.Consulta.Certificados.Entities.CertificadosIca
+  langs:
+  - csharp
+  - vb
+  name: Concepto
+  nameWithType: CertificadosIca.Concepto
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Concepto
+  type: Property
+  source:
+    id: Concepto
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\CertificadosIca.cs
+    startLine: 13
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public string Concepto { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Concepto As String
+  overload: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Concepto*
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Porcentaje
+  commentId: P:CasaToro.Consulta.Certificados.Entities.CertificadosIca.Porcentaje
+  id: Porcentaje
+  parent: CasaToro.Consulta.Certificados.Entities.CertificadosIca
+  langs:
+  - csharp
+  - vb
+  name: Porcentaje
+  nameWithType: CertificadosIca.Porcentaje
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Porcentaje
+  type: Property
+  source:
+    id: Porcentaje
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\CertificadosIca.cs
+    startLine: 15
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public decimal Porcentaje { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property Porcentaje As Decimal
+  overload: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Porcentaje*
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Base
+  commentId: P:CasaToro.Consulta.Certificados.Entities.CertificadosIca.Base
+  id: Base
+  parent: CasaToro.Consulta.Certificados.Entities.CertificadosIca
+  langs:
+  - csharp
+  - vb
+  name: Base
+  nameWithType: CertificadosIca.Base
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Base
+  type: Property
+  source:
+    id: Base
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\CertificadosIca.cs
+    startLine: 17
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public decimal Base { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property Base As Decimal
+  overload: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Base*
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Retenido
+  commentId: P:CasaToro.Consulta.Certificados.Entities.CertificadosIca.Retenido
+  id: Retenido
+  parent: CasaToro.Consulta.Certificados.Entities.CertificadosIca
+  langs:
+  - csharp
+  - vb
+  name: Retenido
+  nameWithType: CertificadosIca.Retenido
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Retenido
+  type: Property
+  source:
+    id: Retenido
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\CertificadosIca.cs
+    startLine: 19
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public decimal Retenido { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property Retenido As Decimal
+  overload: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Retenido*
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Ano
+  commentId: P:CasaToro.Consulta.Certificados.Entities.CertificadosIca.Ano
+  id: Ano
+  parent: CasaToro.Consulta.Certificados.Entities.CertificadosIca
+  langs:
+  - csharp
+  - vb
+  name: Ano
+  nameWithType: CertificadosIca.Ano
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Ano
+  type: Property
+  source:
+    id: Ano
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\CertificadosIca.cs
+    startLine: 21
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public int Ano { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Ano As Integer
+  overload: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Ano*
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Periodo
+  commentId: P:CasaToro.Consulta.Certificados.Entities.CertificadosIca.Periodo
+  id: Periodo
+  parent: CasaToro.Consulta.Certificados.Entities.CertificadosIca
+  langs:
+  - csharp
+  - vb
+  name: Periodo
+  nameWithType: CertificadosIca.Periodo
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Periodo
+  type: Property
+  source:
+    id: Periodo
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\CertificadosIca.cs
+    startLine: 23
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public int Periodo { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Periodo As Integer
+  overload: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Periodo*
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.CiudadPago
+  commentId: P:CasaToro.Consulta.Certificados.Entities.CertificadosIca.CiudadPago
+  id: CiudadPago
+  parent: CasaToro.Consulta.Certificados.Entities.CertificadosIca
+  langs:
+  - csharp
+  - vb
+  name: CiudadPago
+  nameWithType: CertificadosIca.CiudadPago
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.CiudadPago
+  type: Property
+  source:
+    id: CiudadPago
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\CertificadosIca.cs
+    startLine: 25
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public string CiudadPago { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CiudadPago As String
+  overload: CasaToro.Consulta.Certificados.Entities.CertificadosIca.CiudadPago*
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.CiudadExpedido
+  commentId: P:CasaToro.Consulta.Certificados.Entities.CertificadosIca.CiudadExpedido
+  id: CiudadExpedido
+  parent: CasaToro.Consulta.Certificados.Entities.CertificadosIca
+  langs:
+  - csharp
+  - vb
+  name: CiudadExpedido
+  nameWithType: CertificadosIca.CiudadExpedido
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.CiudadExpedido
+  type: Property
+  source:
+    id: CiudadExpedido
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\CertificadosIca.cs
+    startLine: 27
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public string CiudadExpedido { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CiudadExpedido As String
+  overload: CasaToro.Consulta.Certificados.Entities.CertificadosIca.CiudadExpedido*
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.FechaExpedicion
+  commentId: P:CasaToro.Consulta.Certificados.Entities.CertificadosIca.FechaExpedicion
+  id: FechaExpedicion
+  parent: CasaToro.Consulta.Certificados.Entities.CertificadosIca
+  langs:
+  - csharp
+  - vb
+  name: FechaExpedicion
+  nameWithType: CertificadosIca.FechaExpedicion
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.FechaExpedicion
+  type: Property
+  source:
+    id: FechaExpedicion
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\CertificadosIca.cs
+    startLine: 29
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public DateOnly FechaExpedicion { get; set; }
+    parameters: []
+    return:
+      type: System.DateOnly
+    content.vb: Public Property FechaExpedicion As DateOnly
+  overload: CasaToro.Consulta.Certificados.Entities.CertificadosIca.FechaExpedicion*
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.IdEmpresaNavigation
+  commentId: P:CasaToro.Consulta.Certificados.Entities.CertificadosIca.IdEmpresaNavigation
+  id: IdEmpresaNavigation
+  parent: CasaToro.Consulta.Certificados.Entities.CertificadosIca
+  langs:
+  - csharp
+  - vb
+  name: IdEmpresaNavigation
+  nameWithType: CertificadosIca.IdEmpresaNavigation
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.IdEmpresaNavigation
+  type: Property
+  source:
+    id: IdEmpresaNavigation
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\CertificadosIca.cs
+    startLine: 31
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public virtual EmpresasMaster IdEmpresaNavigation { get; set; }
+    parameters: []
+    return:
+      type: CasaToro.Consulta.Certificados.Entities.EmpresasMaster
+    content.vb: Public Overridable Property IdEmpresaNavigation As EmpresasMaster
+  overload: CasaToro.Consulta.Certificados.Entities.CertificadosIca.IdEmpresaNavigation*
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.NitNavigation
+  commentId: P:CasaToro.Consulta.Certificados.Entities.CertificadosIca.NitNavigation
+  id: NitNavigation
+  parent: CasaToro.Consulta.Certificados.Entities.CertificadosIca
+  langs:
+  - csharp
+  - vb
+  name: NitNavigation
+  nameWithType: CertificadosIca.NitNavigation
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.NitNavigation
+  type: Property
+  source:
+    id: NitNavigation
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\CertificadosIca.cs
+    startLine: 33
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public virtual ProveedoresMaster NitNavigation { get; set; }
+    parameters: []
+    return:
+      type: CasaToro.Consulta.Certificados.Entities.ProveedoresMaster
+    content.vb: Public Overridable Property NitNavigation As ProveedoresMaster
+  overload: CasaToro.Consulta.Certificados.Entities.CertificadosIca.NitNavigation*
+references:
+- uid: CasaToro.Consulta.Certificados.Entities
+  commentId: N:CasaToro.Consulta.Certificados.Entities
+  href: CasaToro.html
+  name: CasaToro.Consulta.Certificados.Entities
+  nameWithType: CasaToro.Consulta.Certificados.Entities
+  fullName: CasaToro.Consulta.Certificados.Entities
+  spec.csharp:
+  - uid: CasaToro
+    name: CasaToro
+    href: CasaToro.html
+  - name: .
+  - uid: CasaToro.Consulta
+    name: Consulta
+    href: CasaToro.Consulta.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados
+    name: Certificados
+    href: CasaToro.Consulta.Certificados.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.Entities
+    name: Entities
+    href: CasaToro.Consulta.Certificados.Entities.html
+  spec.vb:
+  - uid: CasaToro
+    name: CasaToro
+    href: CasaToro.html
+  - name: .
+  - uid: CasaToro.Consulta
+    name: Consulta
+    href: CasaToro.Consulta.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados
+    name: Certificados
+    href: CasaToro.Consulta.Certificados.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.Entities
+    name: Entities
+    href: CasaToro.Consulta.Certificados.Entities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.IdIca*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.CertificadosIca.IdIca
+  href: CasaToro.Consulta.Certificados.Entities.CertificadosIca.html#CasaToro_Consulta_Certificados_Entities_CertificadosIca_IdIca
+  name: IdIca
+  nameWithType: CertificadosIca.IdIca
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.IdIca
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Nit*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.CertificadosIca.Nit
+  href: CasaToro.Consulta.Certificados.Entities.CertificadosIca.html#CasaToro_Consulta_Certificados_Entities_CertificadosIca_Nit
+  name: Nit
+  nameWithType: CertificadosIca.Nit
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Nit
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.IdEmpresa*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.CertificadosIca.IdEmpresa
+  href: CasaToro.Consulta.Certificados.Entities.CertificadosIca.html#CasaToro_Consulta_Certificados_Entities_CertificadosIca_IdEmpresa
+  name: IdEmpresa
+  nameWithType: CertificadosIca.IdEmpresa
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.IdEmpresa
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Concepto*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.CertificadosIca.Concepto
+  href: CasaToro.Consulta.Certificados.Entities.CertificadosIca.html#CasaToro_Consulta_Certificados_Entities_CertificadosIca_Concepto
+  name: Concepto
+  nameWithType: CertificadosIca.Concepto
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Concepto
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Porcentaje*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.CertificadosIca.Porcentaje
+  href: CasaToro.Consulta.Certificados.Entities.CertificadosIca.html#CasaToro_Consulta_Certificados_Entities_CertificadosIca_Porcentaje
+  name: Porcentaje
+  nameWithType: CertificadosIca.Porcentaje
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Porcentaje
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.decimal
+  name: decimal
+  nameWithType: decimal
+  fullName: decimal
+  nameWithType.vb: Decimal
+  fullName.vb: Decimal
+  name.vb: Decimal
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Base*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.CertificadosIca.Base
+  href: CasaToro.Consulta.Certificados.Entities.CertificadosIca.html#CasaToro_Consulta_Certificados_Entities_CertificadosIca_Base
+  name: Base
+  nameWithType: CertificadosIca.Base
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Base
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Retenido*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.CertificadosIca.Retenido
+  href: CasaToro.Consulta.Certificados.Entities.CertificadosIca.html#CasaToro_Consulta_Certificados_Entities_CertificadosIca_Retenido
+  name: Retenido
+  nameWithType: CertificadosIca.Retenido
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Retenido
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Ano*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.CertificadosIca.Ano
+  href: CasaToro.Consulta.Certificados.Entities.CertificadosIca.html#CasaToro_Consulta_Certificados_Entities_CertificadosIca_Ano
+  name: Ano
+  nameWithType: CertificadosIca.Ano
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Ano
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Periodo*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.CertificadosIca.Periodo
+  href: CasaToro.Consulta.Certificados.Entities.CertificadosIca.html#CasaToro_Consulta_Certificados_Entities_CertificadosIca_Periodo
+  name: Periodo
+  nameWithType: CertificadosIca.Periodo
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.Periodo
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.CiudadPago*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.CertificadosIca.CiudadPago
+  href: CasaToro.Consulta.Certificados.Entities.CertificadosIca.html#CasaToro_Consulta_Certificados_Entities_CertificadosIca_CiudadPago
+  name: CiudadPago
+  nameWithType: CertificadosIca.CiudadPago
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.CiudadPago
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.CiudadExpedido*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.CertificadosIca.CiudadExpedido
+  href: CasaToro.Consulta.Certificados.Entities.CertificadosIca.html#CasaToro_Consulta_Certificados_Entities_CertificadosIca_CiudadExpedido
+  name: CiudadExpedido
+  nameWithType: CertificadosIca.CiudadExpedido
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.CiudadExpedido
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.FechaExpedicion*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.CertificadosIca.FechaExpedicion
+  href: CasaToro.Consulta.Certificados.Entities.CertificadosIca.html#CasaToro_Consulta_Certificados_Entities_CertificadosIca_FechaExpedicion
+  name: FechaExpedicion
+  nameWithType: CertificadosIca.FechaExpedicion
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.FechaExpedicion
+- uid: System.DateOnly
+  commentId: T:System.DateOnly
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.dateonly
+  name: DateOnly
+  nameWithType: DateOnly
+  fullName: System.DateOnly
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.IdEmpresaNavigation*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.CertificadosIca.IdEmpresaNavigation
+  href: CasaToro.Consulta.Certificados.Entities.CertificadosIca.html#CasaToro_Consulta_Certificados_Entities_CertificadosIca_IdEmpresaNavigation
+  name: IdEmpresaNavigation
+  nameWithType: CertificadosIca.IdEmpresaNavigation
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.IdEmpresaNavigation
+- uid: CasaToro.Consulta.Certificados.Entities.EmpresasMaster
+  commentId: T:CasaToro.Consulta.Certificados.Entities.EmpresasMaster
+  parent: CasaToro.Consulta.Certificados.Entities
+  href: CasaToro.Consulta.Certificados.Entities.EmpresasMaster.html
+  name: EmpresasMaster
+  nameWithType: EmpresasMaster
+  fullName: CasaToro.Consulta.Certificados.Entities.EmpresasMaster
+- uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca.NitNavigation*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.CertificadosIca.NitNavigation
+  href: CasaToro.Consulta.Certificados.Entities.CertificadosIca.html#CasaToro_Consulta_Certificados_Entities_CertificadosIca_NitNavigation
+  name: NitNavigation
+  nameWithType: CertificadosIca.NitNavigation
+  fullName: CasaToro.Consulta.Certificados.Entities.CertificadosIca.NitNavigation
+- uid: CasaToro.Consulta.Certificados.Entities.ProveedoresMaster
+  commentId: T:CasaToro.Consulta.Certificados.Entities.ProveedoresMaster
+  parent: CasaToro.Consulta.Certificados.Entities
+  href: CasaToro.Consulta.Certificados.Entities.ProveedoresMaster.html
+  name: ProveedoresMaster
+  nameWithType: ProveedoresMaster
+  fullName: CasaToro.Consulta.Certificados.Entities.ProveedoresMaster

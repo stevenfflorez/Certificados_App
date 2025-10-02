@@ -1,0 +1,507 @@
+### YamlMime:ManagedReference
+items:
+- uid: CasaToro.Consulta.Certificados.Entities.LogLogin
+  commentId: T:CasaToro.Consulta.Certificados.Entities.LogLogin
+  id: LogLogin
+  parent: CasaToro.Consulta.Certificados.Entities
+  children:
+  - CasaToro.Consulta.Certificados.Entities.LogLogin.FecLogin
+  - CasaToro.Consulta.Certificados.Entities.LogLogin.IdRegistroLogin
+  - CasaToro.Consulta.Certificados.Entities.LogLogin.NitTercero
+  - CasaToro.Consulta.Certificados.Entities.LogLogin.NitTerceroNavigation
+  - CasaToro.Consulta.Certificados.Entities.LogLogin.NombreTercero
+  langs:
+  - csharp
+  - vb
+  name: LogLogin
+  nameWithType: LogLogin
+  fullName: CasaToro.Consulta.Certificados.Entities.LogLogin
+  type: Class
+  source:
+    id: LogLogin
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\LogLogin.cs
+    startLine: 5
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public class LogLogin
+    content.vb: Public Class LogLogin
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CasaToro.Consulta.Certificados.Entities.LogLogin.IdRegistroLogin
+  commentId: P:CasaToro.Consulta.Certificados.Entities.LogLogin.IdRegistroLogin
+  id: IdRegistroLogin
+  parent: CasaToro.Consulta.Certificados.Entities.LogLogin
+  langs:
+  - csharp
+  - vb
+  name: IdRegistroLogin
+  nameWithType: LogLogin.IdRegistroLogin
+  fullName: CasaToro.Consulta.Certificados.Entities.LogLogin.IdRegistroLogin
+  type: Property
+  source:
+    id: IdRegistroLogin
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\LogLogin.cs
+    startLine: 7
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public Guid IdRegistroLogin { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property IdRegistroLogin As Guid
+  overload: CasaToro.Consulta.Certificados.Entities.LogLogin.IdRegistroLogin*
+- uid: CasaToro.Consulta.Certificados.Entities.LogLogin.NitTercero
+  commentId: P:CasaToro.Consulta.Certificados.Entities.LogLogin.NitTercero
+  id: NitTercero
+  parent: CasaToro.Consulta.Certificados.Entities.LogLogin
+  langs:
+  - csharp
+  - vb
+  name: NitTercero
+  nameWithType: LogLogin.NitTercero
+  fullName: CasaToro.Consulta.Certificados.Entities.LogLogin.NitTercero
+  type: Property
+  source:
+    id: NitTercero
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\LogLogin.cs
+    startLine: 9
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public string NitTercero { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NitTercero As String
+  overload: CasaToro.Consulta.Certificados.Entities.LogLogin.NitTercero*
+- uid: CasaToro.Consulta.Certificados.Entities.LogLogin.NombreTercero
+  commentId: P:CasaToro.Consulta.Certificados.Entities.LogLogin.NombreTercero
+  id: NombreTercero
+  parent: CasaToro.Consulta.Certificados.Entities.LogLogin
+  langs:
+  - csharp
+  - vb
+  name: NombreTercero
+  nameWithType: LogLogin.NombreTercero
+  fullName: CasaToro.Consulta.Certificados.Entities.LogLogin.NombreTercero
+  type: Property
+  source:
+    id: NombreTercero
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\LogLogin.cs
+    startLine: 11
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public string NombreTercero { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NombreTercero As String
+  overload: CasaToro.Consulta.Certificados.Entities.LogLogin.NombreTercero*
+- uid: CasaToro.Consulta.Certificados.Entities.LogLogin.FecLogin
+  commentId: P:CasaToro.Consulta.Certificados.Entities.LogLogin.FecLogin
+  id: FecLogin
+  parent: CasaToro.Consulta.Certificados.Entities.LogLogin
+  langs:
+  - csharp
+  - vb
+  name: FecLogin
+  nameWithType: LogLogin.FecLogin
+  fullName: CasaToro.Consulta.Certificados.Entities.LogLogin.FecLogin
+  type: Property
+  source:
+    id: FecLogin
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\LogLogin.cs
+    startLine: 13
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public DateTime FecLogin { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property FecLogin As Date
+  overload: CasaToro.Consulta.Certificados.Entities.LogLogin.FecLogin*
+- uid: CasaToro.Consulta.Certificados.Entities.LogLogin.NitTerceroNavigation
+  commentId: P:CasaToro.Consulta.Certificados.Entities.LogLogin.NitTerceroNavigation
+  id: NitTerceroNavigation
+  parent: CasaToro.Consulta.Certificados.Entities.LogLogin
+  langs:
+  - csharp
+  - vb
+  name: NitTerceroNavigation
+  nameWithType: LogLogin.NitTerceroNavigation
+  fullName: CasaToro.Consulta.Certificados.Entities.LogLogin.NitTerceroNavigation
+  type: Property
+  source:
+    id: NitTerceroNavigation
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\LogLogin.cs
+    startLine: 15
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public virtual ProveedoresMaster NitTerceroNavigation { get; set; }
+    parameters: []
+    return:
+      type: CasaToro.Consulta.Certificados.Entities.ProveedoresMaster
+    content.vb: Public Overridable Property NitTerceroNavigation As ProveedoresMaster
+  overload: CasaToro.Consulta.Certificados.Entities.LogLogin.NitTerceroNavigation*
+references:
+- uid: CasaToro.Consulta.Certificados.Entities
+  commentId: N:CasaToro.Consulta.Certificados.Entities
+  href: CasaToro.html
+  name: CasaToro.Consulta.Certificados.Entities
+  nameWithType: CasaToro.Consulta.Certificados.Entities
+  fullName: CasaToro.Consulta.Certificados.Entities
+  spec.csharp:
+  - uid: CasaToro
+    name: CasaToro
+    href: CasaToro.html
+  - name: .
+  - uid: CasaToro.Consulta
+    name: Consulta
+    href: CasaToro.Consulta.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados
+    name: Certificados
+    href: CasaToro.Consulta.Certificados.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.Entities
+    name: Entities
+    href: CasaToro.Consulta.Certificados.Entities.html
+  spec.vb:
+  - uid: CasaToro
+    name: CasaToro
+    href: CasaToro.html
+  - name: .
+  - uid: CasaToro.Consulta
+    name: Consulta
+    href: CasaToro.Consulta.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados
+    name: Certificados
+    href: CasaToro.Consulta.Certificados.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.Entities
+    name: Entities
+    href: CasaToro.Consulta.Certificados.Entities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CasaToro.Consulta.Certificados.Entities.LogLogin.IdRegistroLogin*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.LogLogin.IdRegistroLogin
+  href: CasaToro.Consulta.Certificados.Entities.LogLogin.html#CasaToro_Consulta_Certificados_Entities_LogLogin_IdRegistroLogin
+  name: IdRegistroLogin
+  nameWithType: LogLogin.IdRegistroLogin
+  fullName: CasaToro.Consulta.Certificados.Entities.LogLogin.IdRegistroLogin
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: CasaToro.Consulta.Certificados.Entities.LogLogin.NitTercero*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.LogLogin.NitTercero
+  href: CasaToro.Consulta.Certificados.Entities.LogLogin.html#CasaToro_Consulta_Certificados_Entities_LogLogin_NitTercero
+  name: NitTercero
+  nameWithType: LogLogin.NitTercero
+  fullName: CasaToro.Consulta.Certificados.Entities.LogLogin.NitTercero
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: CasaToro.Consulta.Certificados.Entities.LogLogin.NombreTercero*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.LogLogin.NombreTercero
+  href: CasaToro.Consulta.Certificados.Entities.LogLogin.html#CasaToro_Consulta_Certificados_Entities_LogLogin_NombreTercero
+  name: NombreTercero
+  nameWithType: LogLogin.NombreTercero
+  fullName: CasaToro.Consulta.Certificados.Entities.LogLogin.NombreTercero
+- uid: CasaToro.Consulta.Certificados.Entities.LogLogin.FecLogin*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.LogLogin.FecLogin
+  href: CasaToro.Consulta.Certificados.Entities.LogLogin.html#CasaToro_Consulta_Certificados_Entities_LogLogin_FecLogin
+  name: FecLogin
+  nameWithType: LogLogin.FecLogin
+  fullName: CasaToro.Consulta.Certificados.Entities.LogLogin.FecLogin
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: CasaToro.Consulta.Certificados.Entities.LogLogin.NitTerceroNavigation*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.LogLogin.NitTerceroNavigation
+  href: CasaToro.Consulta.Certificados.Entities.LogLogin.html#CasaToro_Consulta_Certificados_Entities_LogLogin_NitTerceroNavigation
+  name: NitTerceroNavigation
+  nameWithType: LogLogin.NitTerceroNavigation
+  fullName: CasaToro.Consulta.Certificados.Entities.LogLogin.NitTerceroNavigation
+- uid: CasaToro.Consulta.Certificados.Entities.ProveedoresMaster
+  commentId: T:CasaToro.Consulta.Certificados.Entities.ProveedoresMaster
+  parent: CasaToro.Consulta.Certificados.Entities
+  href: CasaToro.Consulta.Certificados.Entities.ProveedoresMaster.html
+  name: ProveedoresMaster
+  nameWithType: ProveedoresMaster
+  fullName: CasaToro.Consulta.Certificados.Entities.ProveedoresMaster

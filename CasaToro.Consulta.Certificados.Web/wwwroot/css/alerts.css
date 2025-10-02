@@ -1,0 +1,26 @@
+﻿@import url('colors.css');
+
+.alert-header-success {
+    background: var(--header-alert-success-bg);
+    color: white;
+}
+
+.alert-content-success {
+    border: 1px solid var(--header-alert-success-border);
+}
+
+.alert-header-error {
+    background: var(--header-alert-error-bg);
+    color: white;
+}
+
+.alert-content-error {
+    border: 1px solid var(--header-alert-error-border);
+}
+
+.alert-title {
+    text-align: center;
+    width: 100%;
+}
+
+

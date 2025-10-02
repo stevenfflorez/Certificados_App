@@ -1,0 +1,130 @@
+ /* Estilos específicos para la vista de login */
+ @import url('colors.css');
+.login-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-image: url(/images/mosaico-rotate.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.l-login-container {
+    background-size: auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+.l-login-container-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%
+}
+
+.l-login-container-content {
+    color: darkslategray;
+    padding: 0 0 0 1.5rem;
+}
+
+.l-login-container-header img {
+    width: 20%;
+}
+
+.l-login-container-footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.l-login-container-hr {
+    width: 95%;
+}
+
+.l-login-container-hr hr{
+   border-top: 2px solid darkgray;
+  opacity: 1;
+}
+
+.l-login-container-company-icons {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 100%;
+}
+
+.l-login-container-company-icons img{
+   width: 55%;
+}
+
+.r-login-container {
+    background: rgba(189, 185, 185, 0.15);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.r-login-container-form {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 100%;
+}
+
+.input-container {
+    width: inherit;
+}
+
+.custom-btn-container {
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+}
+
+ .custom-input {
+     border-radius: 20px;
+ }
+
+ .custom-input:focus {
+     outline: none;
+     box-shadow: none;
+ }
+
+ .custom-input-logo {
+     border-radius: 20px 0 0 20px;
+ }
+
+ .custom-login-btn {
+     background-color: var(--background-login-btn);
+     border: none;
+     border-radius: 15px;
+     padding: 2.5%;
+     width: 60%;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     color: white;
+     cursor: pointer;
+     transition: all 0.3s ease;
+ }
+
+ .custom-login-btn:hover {
+     background-color: var(--background-login-btn-hover);
+     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+ }
+
+ .custom-login-btn:active {
+     background-color: var(--background-login-btn-active);
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+
+ .fade-out {
+     opacity: 1;
+     transition: opacity 2s ease-out;
+ }
+
+ .fade-out.hide {
+     opacity: 0;
+ }

@@ -1,0 +1,33 @@
+﻿:root {
+    --body-bg: #F7F7F7;
+    --nav-bg: white;
+    --footer-bg: white;
+    --filters-bg: #E4E6E7;
+    --left-bg: #709DBE;
+    --button-bg: #709DBE;
+    --button-hover-bg: #1659A1;
+    --background-menu: #4E96D2;
+    --background-menu-gradient: #2A6495;
+    --background-menu-circle: #4E97D3;
+    --background-menu-circle-gradient: #1E384E;
+    --dropdown-menu-gradient-1: #69ABE2;
+    --dropdown-menu-gradient-2: #4E96D2;
+    --dropdown-menu-gradient-3: #3381C2;
+    --dropdown-menu-gradient-4: #0B61AA;
+    --dropdown-menu-active: #3381C2;
+    --initials-circle-color: #207AC6;
+    --background-login-form: #5389AB;
+    --background-login-form-gradient: #181A1CE5;
+    --background-login-btn: #55C1FF;
+    --background-login-btn-hover: #559FFF;
+    --background-login-btn-active: #2F5C73;
+    --background-asignaciones: #4E97D3;
+    --background-asignaciones-gradient: #4B92CD;
+    --background-asignaciones-gradient-2: #2A6495;
+    --background-l-container: #2976B7;
+    --header-alert-success-bg: #218838;
+    --header-alert-success-border: #c3e6cb;
+    --header-alert-error-bg: #c82333;
+    --header-alert-error-border: #f5c6cb;
+    --blue-header: #2976B7;
+}

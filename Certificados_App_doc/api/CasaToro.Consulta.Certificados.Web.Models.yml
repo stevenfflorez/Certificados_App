@@ -1,0 +1,91 @@
+### YamlMime:ManagedReference
+items:
+- uid: CasaToro.Consulta.Certificados.Web.Models
+  commentId: N:CasaToro.Consulta.Certificados.Web.Models
+  id: CasaToro.Consulta.Certificados.Web.Models
+  children:
+  - CasaToro.Consulta.Certificados.Web.Models.BillsViewModel
+  - CasaToro.Consulta.Certificados.Web.Models.CertificatesViewModel
+  - CasaToro.Consulta.Certificados.Web.Models.LoginViewModel
+  - CasaToro.Consulta.Certificados.Web.Models.ProfileViewModel
+  langs:
+  - csharp
+  - vb
+  name: CasaToro.Consulta.Certificados.Web.Models
+  nameWithType: CasaToro.Consulta.Certificados.Web.Models
+  fullName: CasaToro.Consulta.Certificados.Web.Models
+  type: Namespace
+  assemblies:
+  - CasaToro.Consulta.Certificados.Web
+references:
+- uid: CasaToro.Consulta.Certificados.Web.Models.BillsViewModel
+  commentId: T:CasaToro.Consulta.Certificados.Web.Models.BillsViewModel
+  href: CasaToro.Consulta.Certificados.Web.Models.BillsViewModel.html
+  name: BillsViewModel
+  nameWithType: BillsViewModel
+  fullName: CasaToro.Consulta.Certificados.Web.Models.BillsViewModel
+- uid: CasaToro.Consulta.Certificados.Web.Models.CertificatesViewModel
+  commentId: T:CasaToro.Consulta.Certificados.Web.Models.CertificatesViewModel
+  href: CasaToro.Consulta.Certificados.Web.Models.CertificatesViewModel.html
+  name: CertificatesViewModel
+  nameWithType: CertificatesViewModel
+  fullName: CasaToro.Consulta.Certificados.Web.Models.CertificatesViewModel
+- uid: CasaToro.Consulta.Certificados.Web.Models.LoginViewModel
+  commentId: T:CasaToro.Consulta.Certificados.Web.Models.LoginViewModel
+  parent: CasaToro.Consulta.Certificados.Web.Models
+  href: CasaToro.Consulta.Certificados.Web.Models.LoginViewModel.html
+  name: LoginViewModel
+  nameWithType: LoginViewModel
+  fullName: CasaToro.Consulta.Certificados.Web.Models.LoginViewModel
+- uid: CasaToro.Consulta.Certificados.Web.Models.ProfileViewModel
+  commentId: T:CasaToro.Consulta.Certificados.Web.Models.ProfileViewModel
+  href: CasaToro.Consulta.Certificados.Web.Models.ProfileViewModel.html
+  name: ProfileViewModel
+  nameWithType: ProfileViewModel
+  fullName: CasaToro.Consulta.Certificados.Web.Models.ProfileViewModel
+- uid: CasaToro.Consulta.Certificados.Web.Models
+  commentId: N:CasaToro.Consulta.Certificados.Web.Models
+  href: CasaToro.html
+  name: CasaToro.Consulta.Certificados.Web.Models
+  nameWithType: CasaToro.Consulta.Certificados.Web.Models
+  fullName: CasaToro.Consulta.Certificados.Web.Models
+  spec.csharp:
+  - uid: CasaToro
+    name: CasaToro
+    href: CasaToro.html
+  - name: .
+  - uid: CasaToro.Consulta
+    name: Consulta
+    href: CasaToro.Consulta.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados
+    name: Certificados
+    href: CasaToro.Consulta.Certificados.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.Web
+    name: Web
+    href: CasaToro.Consulta.Certificados.Web.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.Web.Models
+    name: Models
+    href: CasaToro.Consulta.Certificados.Web.Models.html
+  spec.vb:
+  - uid: CasaToro
+    name: CasaToro
+    href: CasaToro.html
+  - name: .
+  - uid: CasaToro.Consulta
+    name: Consulta
+    href: CasaToro.Consulta.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados
+    name: Certificados
+    href: CasaToro.Consulta.Certificados.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.Web
+    name: Web
+    href: CasaToro.Consulta.Certificados.Web.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.Web.Models
+    name: Models
+    href: CasaToro.Consulta.Certificados.Web.Models.html

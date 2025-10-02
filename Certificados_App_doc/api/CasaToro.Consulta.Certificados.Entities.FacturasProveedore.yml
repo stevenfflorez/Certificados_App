@@ -1,0 +1,1107 @@
+### YamlMime:ManagedReference
+items:
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+  commentId: T:CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+  id: FacturasProveedore
+  parent: CasaToro.Consulta.Certificados.Entities
+  children:
+  - CasaToro.Consulta.Certificados.Entities.FacturasProveedore.BancoReceptor
+  - CasaToro.Consulta.Certificados.Entities.FacturasProveedore.CodigoSpiga
+  - CasaToro.Consulta.Certificados.Entities.FacturasProveedore.CuentaBancaria
+  - CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Descripcion
+  - CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Estado
+  - CasaToro.Consulta.Certificados.Entities.FacturasProveedore.FechaFactura
+  - CasaToro.Consulta.Certificados.Entities.FacturasProveedore.FechaPago
+  - CasaToro.Consulta.Certificados.Entities.FacturasProveedore.IdEmpresa
+  - CasaToro.Consulta.Certificados.Entities.FacturasProveedore.IdEmpresaNavigation
+  - CasaToro.Consulta.Certificados.Entities.FacturasProveedore.IdFactura
+  - CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Iva
+  - CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Moneda
+  - CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Nit
+  - CasaToro.Consulta.Certificados.Entities.FacturasProveedore.NitNavigation
+  - CasaToro.Consulta.Certificados.Entities.FacturasProveedore.NumeroFactura
+  - CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ReteFuente
+  - CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ReteIca
+  - CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ReteIva
+  - CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ValorPago
+  - CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ValorTotal
+  langs:
+  - csharp
+  - vb
+  name: FacturasProveedore
+  nameWithType: FacturasProveedore
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+  type: Class
+  source:
+    id: FacturasProveedore
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\FacturasProveedore.cs
+    startLine: 5
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public class FacturasProveedore
+    content.vb: Public Class FacturasProveedore
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.IdFactura
+  commentId: P:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.IdFactura
+  id: IdFactura
+  parent: CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+  langs:
+  - csharp
+  - vb
+  name: IdFactura
+  nameWithType: FacturasProveedore.IdFactura
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.IdFactura
+  type: Property
+  source:
+    id: IdFactura
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\FacturasProveedore.cs
+    startLine: 7
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public Guid IdFactura { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property IdFactura As Guid
+  overload: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.IdFactura*
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.NumeroFactura
+  commentId: P:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.NumeroFactura
+  id: NumeroFactura
+  parent: CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+  langs:
+  - csharp
+  - vb
+  name: NumeroFactura
+  nameWithType: FacturasProveedore.NumeroFactura
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.NumeroFactura
+  type: Property
+  source:
+    id: NumeroFactura
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\FacturasProveedore.cs
+    startLine: 9
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public string? NumeroFactura { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NumeroFactura As String
+  overload: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.NumeroFactura*
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.IdEmpresa
+  commentId: P:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.IdEmpresa
+  id: IdEmpresa
+  parent: CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+  langs:
+  - csharp
+  - vb
+  name: IdEmpresa
+  nameWithType: FacturasProveedore.IdEmpresa
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.IdEmpresa
+  type: Property
+  source:
+    id: IdEmpresa
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\FacturasProveedore.cs
+    startLine: 11
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public int IdEmpresa { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property IdEmpresa As Integer
+  overload: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.IdEmpresa*
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Nit
+  commentId: P:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Nit
+  id: Nit
+  parent: CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+  langs:
+  - csharp
+  - vb
+  name: Nit
+  nameWithType: FacturasProveedore.Nit
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Nit
+  type: Property
+  source:
+    id: Nit
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\FacturasProveedore.cs
+    startLine: 13
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public string Nit { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Nit As String
+  overload: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Nit*
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Moneda
+  commentId: P:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Moneda
+  id: Moneda
+  parent: CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+  langs:
+  - csharp
+  - vb
+  name: Moneda
+  nameWithType: FacturasProveedore.Moneda
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Moneda
+  type: Property
+  source:
+    id: Moneda
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\FacturasProveedore.cs
+    startLine: 15
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public string? Moneda { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Moneda As String
+  overload: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Moneda*
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.FechaFactura
+  commentId: P:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.FechaFactura
+  id: FechaFactura
+  parent: CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+  langs:
+  - csharp
+  - vb
+  name: FechaFactura
+  nameWithType: FacturasProveedore.FechaFactura
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.FechaFactura
+  type: Property
+  source:
+    id: FechaFactura
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\FacturasProveedore.cs
+    startLine: 17
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public DateOnly FechaFactura { get; set; }
+    parameters: []
+    return:
+      type: System.DateOnly
+    content.vb: Public Property FechaFactura As DateOnly
+  overload: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.FechaFactura*
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ValorTotal
+  commentId: P:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ValorTotal
+  id: ValorTotal
+  parent: CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+  langs:
+  - csharp
+  - vb
+  name: ValorTotal
+  nameWithType: FacturasProveedore.ValorTotal
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ValorTotal
+  type: Property
+  source:
+    id: ValorTotal
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\FacturasProveedore.cs
+    startLine: 19
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public decimal ValorTotal { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property ValorTotal As Decimal
+  overload: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ValorTotal*
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Iva
+  commentId: P:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Iva
+  id: Iva
+  parent: CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+  langs:
+  - csharp
+  - vb
+  name: Iva
+  nameWithType: FacturasProveedore.Iva
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Iva
+  type: Property
+  source:
+    id: Iva
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\FacturasProveedore.cs
+    startLine: 21
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public decimal Iva { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property Iva As Decimal
+  overload: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Iva*
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ReteFuente
+  commentId: P:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ReteFuente
+  id: ReteFuente
+  parent: CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+  langs:
+  - csharp
+  - vb
+  name: ReteFuente
+  nameWithType: FacturasProveedore.ReteFuente
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ReteFuente
+  type: Property
+  source:
+    id: ReteFuente
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\FacturasProveedore.cs
+    startLine: 23
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public decimal ReteFuente { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property ReteFuente As Decimal
+  overload: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ReteFuente*
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ReteIva
+  commentId: P:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ReteIva
+  id: ReteIva
+  parent: CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+  langs:
+  - csharp
+  - vb
+  name: ReteIva
+  nameWithType: FacturasProveedore.ReteIva
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ReteIva
+  type: Property
+  source:
+    id: ReteIva
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\FacturasProveedore.cs
+    startLine: 25
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public decimal ReteIva { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property ReteIva As Decimal
+  overload: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ReteIva*
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ReteIca
+  commentId: P:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ReteIca
+  id: ReteIca
+  parent: CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+  langs:
+  - csharp
+  - vb
+  name: ReteIca
+  nameWithType: FacturasProveedore.ReteIca
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ReteIca
+  type: Property
+  source:
+    id: ReteIca
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\FacturasProveedore.cs
+    startLine: 27
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public decimal ReteIca { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property ReteIca As Decimal
+  overload: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ReteIca*
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ValorPago
+  commentId: P:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ValorPago
+  id: ValorPago
+  parent: CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+  langs:
+  - csharp
+  - vb
+  name: ValorPago
+  nameWithType: FacturasProveedore.ValorPago
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ValorPago
+  type: Property
+  source:
+    id: ValorPago
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\FacturasProveedore.cs
+    startLine: 29
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public decimal? ValorPago { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Decimal}
+    content.vb: Public Property ValorPago As Decimal?
+  overload: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ValorPago*
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.FechaPago
+  commentId: P:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.FechaPago
+  id: FechaPago
+  parent: CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+  langs:
+  - csharp
+  - vb
+  name: FechaPago
+  nameWithType: FacturasProveedore.FechaPago
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.FechaPago
+  type: Property
+  source:
+    id: FechaPago
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\FacturasProveedore.cs
+    startLine: 31
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public DateOnly? FechaPago { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateOnly}
+    content.vb: Public Property FechaPago As DateOnly?
+  overload: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.FechaPago*
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.BancoReceptor
+  commentId: P:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.BancoReceptor
+  id: BancoReceptor
+  parent: CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+  langs:
+  - csharp
+  - vb
+  name: BancoReceptor
+  nameWithType: FacturasProveedore.BancoReceptor
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.BancoReceptor
+  type: Property
+  source:
+    id: BancoReceptor
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\FacturasProveedore.cs
+    startLine: 33
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public string? BancoReceptor { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property BancoReceptor As String
+  overload: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.BancoReceptor*
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.CuentaBancaria
+  commentId: P:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.CuentaBancaria
+  id: CuentaBancaria
+  parent: CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+  langs:
+  - csharp
+  - vb
+  name: CuentaBancaria
+  nameWithType: FacturasProveedore.CuentaBancaria
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.CuentaBancaria
+  type: Property
+  source:
+    id: CuentaBancaria
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\FacturasProveedore.cs
+    startLine: 35
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public string? CuentaBancaria { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CuentaBancaria As String
+  overload: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.CuentaBancaria*
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.CodigoSpiga
+  commentId: P:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.CodigoSpiga
+  id: CodigoSpiga
+  parent: CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+  langs:
+  - csharp
+  - vb
+  name: CodigoSpiga
+  nameWithType: FacturasProveedore.CodigoSpiga
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.CodigoSpiga
+  type: Property
+  source:
+    id: CodigoSpiga
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\FacturasProveedore.cs
+    startLine: 37
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public int? CodigoSpiga { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property CodigoSpiga As Integer?
+  overload: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.CodigoSpiga*
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Estado
+  commentId: P:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Estado
+  id: Estado
+  parent: CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+  langs:
+  - csharp
+  - vb
+  name: Estado
+  nameWithType: FacturasProveedore.Estado
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Estado
+  type: Property
+  source:
+    id: Estado
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\FacturasProveedore.cs
+    startLine: 39
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public string Estado { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Estado As String
+  overload: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Estado*
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Descripcion
+  commentId: P:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Descripcion
+  id: Descripcion
+  parent: CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+  langs:
+  - csharp
+  - vb
+  name: Descripcion
+  nameWithType: FacturasProveedore.Descripcion
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Descripcion
+  type: Property
+  source:
+    id: Descripcion
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\FacturasProveedore.cs
+    startLine: 41
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public string? Descripcion { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Descripcion As String
+  overload: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Descripcion*
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.IdEmpresaNavigation
+  commentId: P:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.IdEmpresaNavigation
+  id: IdEmpresaNavigation
+  parent: CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+  langs:
+  - csharp
+  - vb
+  name: IdEmpresaNavigation
+  nameWithType: FacturasProveedore.IdEmpresaNavigation
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.IdEmpresaNavigation
+  type: Property
+  source:
+    id: IdEmpresaNavigation
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\FacturasProveedore.cs
+    startLine: 43
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public virtual EmpresasMaster IdEmpresaNavigation { get; set; }
+    parameters: []
+    return:
+      type: CasaToro.Consulta.Certificados.Entities.EmpresasMaster
+    content.vb: Public Overridable Property IdEmpresaNavigation As EmpresasMaster
+  overload: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.IdEmpresaNavigation*
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.NitNavigation
+  commentId: P:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.NitNavigation
+  id: NitNavigation
+  parent: CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+  langs:
+  - csharp
+  - vb
+  name: NitNavigation
+  nameWithType: FacturasProveedore.NitNavigation
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.NitNavigation
+  type: Property
+  source:
+    id: NitNavigation
+    path: C:\Users\1000775880\OneDrive - CASATORO S.A\Escritorio\Certificados_App_doc\CasaToro.Consulta.Certificados.Entities\FacturasProveedore.cs
+    startLine: 45
+  assemblies:
+  - CasaToro.Consulta.Certificados.Entities
+  namespace: CasaToro.Consulta.Certificados.Entities
+  syntax:
+    content: public virtual ProveedoresMaster NitNavigation { get; set; }
+    parameters: []
+    return:
+      type: CasaToro.Consulta.Certificados.Entities.ProveedoresMaster
+    content.vb: Public Overridable Property NitNavigation As ProveedoresMaster
+  overload: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.NitNavigation*
+references:
+- uid: CasaToro.Consulta.Certificados.Entities
+  commentId: N:CasaToro.Consulta.Certificados.Entities
+  href: CasaToro.html
+  name: CasaToro.Consulta.Certificados.Entities
+  nameWithType: CasaToro.Consulta.Certificados.Entities
+  fullName: CasaToro.Consulta.Certificados.Entities
+  spec.csharp:
+  - uid: CasaToro
+    name: CasaToro
+    href: CasaToro.html
+  - name: .
+  - uid: CasaToro.Consulta
+    name: Consulta
+    href: CasaToro.Consulta.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados
+    name: Certificados
+    href: CasaToro.Consulta.Certificados.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.Entities
+    name: Entities
+    href: CasaToro.Consulta.Certificados.Entities.html
+  spec.vb:
+  - uid: CasaToro
+    name: CasaToro
+    href: CasaToro.html
+  - name: .
+  - uid: CasaToro.Consulta
+    name: Consulta
+    href: CasaToro.Consulta.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados
+    name: Certificados
+    href: CasaToro.Consulta.Certificados.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.Entities
+    name: Entities
+    href: CasaToro.Consulta.Certificados.Entities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.IdFactura*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.IdFactura
+  href: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.html#CasaToro_Consulta_Certificados_Entities_FacturasProveedore_IdFactura
+  name: IdFactura
+  nameWithType: FacturasProveedore.IdFactura
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.IdFactura
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.NumeroFactura*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.NumeroFactura
+  href: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.html#CasaToro_Consulta_Certificados_Entities_FacturasProveedore_NumeroFactura
+  name: NumeroFactura
+  nameWithType: FacturasProveedore.NumeroFactura
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.NumeroFactura
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.IdEmpresa*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.IdEmpresa
+  href: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.html#CasaToro_Consulta_Certificados_Entities_FacturasProveedore_IdEmpresa
+  name: IdEmpresa
+  nameWithType: FacturasProveedore.IdEmpresa
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.IdEmpresa
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Nit*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Nit
+  href: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.html#CasaToro_Consulta_Certificados_Entities_FacturasProveedore_Nit
+  name: Nit
+  nameWithType: FacturasProveedore.Nit
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Nit
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Moneda*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Moneda
+  href: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.html#CasaToro_Consulta_Certificados_Entities_FacturasProveedore_Moneda
+  name: Moneda
+  nameWithType: FacturasProveedore.Moneda
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Moneda
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.FechaFactura*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.FechaFactura
+  href: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.html#CasaToro_Consulta_Certificados_Entities_FacturasProveedore_FechaFactura
+  name: FechaFactura
+  nameWithType: FacturasProveedore.FechaFactura
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.FechaFactura
+- uid: System.DateOnly
+  commentId: T:System.DateOnly
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.dateonly
+  name: DateOnly
+  nameWithType: DateOnly
+  fullName: System.DateOnly
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ValorTotal*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ValorTotal
+  href: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.html#CasaToro_Consulta_Certificados_Entities_FacturasProveedore_ValorTotal
+  name: ValorTotal
+  nameWithType: FacturasProveedore.ValorTotal
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ValorTotal
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.decimal
+  name: decimal
+  nameWithType: decimal
+  fullName: decimal
+  nameWithType.vb: Decimal
+  fullName.vb: Decimal
+  name.vb: Decimal
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Iva*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Iva
+  href: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.html#CasaToro_Consulta_Certificados_Entities_FacturasProveedore_Iva
+  name: Iva
+  nameWithType: FacturasProveedore.Iva
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Iva
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ReteFuente*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ReteFuente
+  href: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.html#CasaToro_Consulta_Certificados_Entities_FacturasProveedore_ReteFuente
+  name: ReteFuente
+  nameWithType: FacturasProveedore.ReteFuente
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ReteFuente
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ReteIva*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ReteIva
+  href: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.html#CasaToro_Consulta_Certificados_Entities_FacturasProveedore_ReteIva
+  name: ReteIva
+  nameWithType: FacturasProveedore.ReteIva
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ReteIva
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ReteIca*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ReteIca
+  href: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.html#CasaToro_Consulta_Certificados_Entities_FacturasProveedore_ReteIca
+  name: ReteIca
+  nameWithType: FacturasProveedore.ReteIca
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ReteIca
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ValorPago*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ValorPago
+  href: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.html#CasaToro_Consulta_Certificados_Entities_FacturasProveedore_ValorPago
+  name: ValorPago
+  nameWithType: FacturasProveedore.ValorPago
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.ValorPago
+- uid: System.Nullable{System.Decimal}
+  commentId: T:System.Nullable{System.Decimal}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.decimal
+  name: decimal?
+  nameWithType: decimal?
+  fullName: decimal?
+  nameWithType.vb: Decimal?
+  fullName.vb: Decimal?
+  name.vb: Decimal?
+  spec.csharp:
+  - uid: System.Decimal
+    name: decimal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.decimal
+  - name: '?'
+  spec.vb:
+  - uid: System.Decimal
+    name: Decimal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.decimal
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.FechaPago*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.FechaPago
+  href: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.html#CasaToro_Consulta_Certificados_Entities_FacturasProveedore_FechaPago
+  name: FechaPago
+  nameWithType: FacturasProveedore.FechaPago
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.FechaPago
+- uid: System.Nullable{System.DateOnly}
+  commentId: T:System.Nullable{System.DateOnly}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.dateonly
+  name: DateOnly?
+  nameWithType: DateOnly?
+  fullName: System.DateOnly?
+  spec.csharp:
+  - uid: System.DateOnly
+    name: DateOnly
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.dateonly
+  - name: '?'
+  spec.vb:
+  - uid: System.DateOnly
+    name: DateOnly
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.dateonly
+  - name: '?'
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.BancoReceptor*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.BancoReceptor
+  href: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.html#CasaToro_Consulta_Certificados_Entities_FacturasProveedore_BancoReceptor
+  name: BancoReceptor
+  nameWithType: FacturasProveedore.BancoReceptor
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.BancoReceptor
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.CuentaBancaria*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.CuentaBancaria
+  href: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.html#CasaToro_Consulta_Certificados_Entities_FacturasProveedore_CuentaBancaria
+  name: CuentaBancaria
+  nameWithType: FacturasProveedore.CuentaBancaria
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.CuentaBancaria
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.CodigoSpiga*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.CodigoSpiga
+  href: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.html#CasaToro_Consulta_Certificados_Entities_FacturasProveedore_CodigoSpiga
+  name: CodigoSpiga
+  nameWithType: FacturasProveedore.CodigoSpiga
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.CodigoSpiga
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Estado*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Estado
+  href: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.html#CasaToro_Consulta_Certificados_Entities_FacturasProveedore_Estado
+  name: Estado
+  nameWithType: FacturasProveedore.Estado
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Estado
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Descripcion*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Descripcion
+  href: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.html#CasaToro_Consulta_Certificados_Entities_FacturasProveedore_Descripcion
+  name: Descripcion
+  nameWithType: FacturasProveedore.Descripcion
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.Descripcion
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.IdEmpresaNavigation*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.IdEmpresaNavigation
+  href: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.html#CasaToro_Consulta_Certificados_Entities_FacturasProveedore_IdEmpresaNavigation
+  name: IdEmpresaNavigation
+  nameWithType: FacturasProveedore.IdEmpresaNavigation
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.IdEmpresaNavigation
+- uid: CasaToro.Consulta.Certificados.Entities.EmpresasMaster
+  commentId: T:CasaToro.Consulta.Certificados.Entities.EmpresasMaster
+  parent: CasaToro.Consulta.Certificados.Entities
+  href: CasaToro.Consulta.Certificados.Entities.EmpresasMaster.html
+  name: EmpresasMaster
+  nameWithType: EmpresasMaster
+  fullName: CasaToro.Consulta.Certificados.Entities.EmpresasMaster
+- uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.NitNavigation*
+  commentId: Overload:CasaToro.Consulta.Certificados.Entities.FacturasProveedore.NitNavigation
+  href: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.html#CasaToro_Consulta_Certificados_Entities_FacturasProveedore_NitNavigation
+  name: NitNavigation
+  nameWithType: FacturasProveedore.NitNavigation
+  fullName: CasaToro.Consulta.Certificados.Entities.FacturasProveedore.NitNavigation
+- uid: CasaToro.Consulta.Certificados.Entities.ProveedoresMaster
+  commentId: T:CasaToro.Consulta.Certificados.Entities.ProveedoresMaster
+  parent: CasaToro.Consulta.Certificados.Entities
+  href: CasaToro.Consulta.Certificados.Entities.ProveedoresMaster.html
+  name: ProveedoresMaster
+  nameWithType: ProveedoresMaster
+  fullName: CasaToro.Consulta.Certificados.Entities.ProveedoresMaster

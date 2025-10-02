@@ -1,0 +1,104 @@
+### YamlMime:TableOfContent
+items:
+- uid: CasaToro.Consulta.Certificados.BL.Services
+  name: CasaToro.Consulta.Certificados.BL.Services
+  type: Namespace
+  items:
+  - uid: CasaToro.Consulta.Certificados.BL.Services.AdminService
+    name: AdminService
+    type: Class
+  - uid: CasaToro.Consulta.Certificados.BL.Services.BillService
+    name: BillService
+    type: Class
+  - uid: CasaToro.Consulta.Certificados.BL.Services.CertificateServiceExcel
+    name: CertificateServiceExcel
+    type: Class
+  - uid: CasaToro.Consulta.Certificados.BL.Services.CertificatesService
+    name: CertificatesService
+    type: Class
+  - uid: CasaToro.Consulta.Certificados.BL.Services.InvalidExcelFormatException
+    name: InvalidExcelFormatException
+    type: Class
+  - uid: CasaToro.Consulta.Certificados.BL.Services.LogService
+    name: LogService
+    type: Class
+  - uid: CasaToro.Consulta.Certificados.BL.Services.LoginService
+    name: LoginService
+    type: Class
+  - uid: CasaToro.Consulta.Certificados.BL.Services.ProviderService
+    name: ProviderService
+    type: Class
+- uid: CasaToro.Consulta.Certificados.DAL
+  name: CasaToro.Consulta.Certificados.DAL
+  type: Namespace
+  items:
+  - uid: CasaToro.Consulta.Certificados.DAL.ApplicationDbContext
+    name: ApplicationDbContext
+    type: Class
+- uid: CasaToro.Consulta.Certificados.Entities
+  name: CasaToro.Consulta.Certificados.Entities
+  type: Namespace
+  items:
+  - uid: CasaToro.Consulta.Certificados.Entities.Administradore
+    name: Administradore
+    type: Class
+  - uid: CasaToro.Consulta.Certificados.Entities.CertificadosIca
+    name: CertificadosIca
+    type: Class
+  - uid: CasaToro.Consulta.Certificados.Entities.CertificadosIva
+    name: CertificadosIva
+    type: Class
+  - uid: CasaToro.Consulta.Certificados.Entities.CertificadosRtefte
+    name: CertificadosRtefte
+    type: Class
+  - uid: CasaToro.Consulta.Certificados.Entities.EmpresasMaster
+    name: EmpresasMaster
+    type: Class
+  - uid: CasaToro.Consulta.Certificados.Entities.EmpresasProveedore
+    name: EmpresasProveedore
+    type: Class
+  - uid: CasaToro.Consulta.Certificados.Entities.FacturasProveedore
+    name: FacturasProveedore
+    type: Class
+  - uid: CasaToro.Consulta.Certificados.Entities.LogDescarga
+    name: LogDescarga
+    type: Class
+  - uid: CasaToro.Consulta.Certificados.Entities.LogLogin
+    name: LogLogin
+    type: Class
+  - uid: CasaToro.Consulta.Certificados.Entities.LogLoginAdmin
+    name: LogLoginAdmin
+    type: Class
+  - uid: CasaToro.Consulta.Certificados.Entities.ProveedoresMaster
+    name: ProveedoresMaster
+    type: Class
+- uid: CasaToro.Consulta.Certificados.Web.Controllers
+  name: CasaToro.Consulta.Certificados.Web.Controllers
+  type: Namespace
+  items:
+  - uid: CasaToro.Consulta.Certificados.Web.Controllers.AdminController
+    name: AdminController
+    type: Class
+  - uid: CasaToro.Consulta.Certificados.Web.Controllers.LoginController
+    name: LoginController
+    type: Class
+  - uid: CasaToro.Consulta.Certificados.Web.Controllers.ProviderController
+    name: ProviderController
+    type: Class
+- uid: CasaToro.Consulta.Certificados.Web.Models
+  name: CasaToro.Consulta.Certificados.Web.Models
+  type: Namespace
+  items:
+  - uid: CasaToro.Consulta.Certificados.Web.Models.BillsViewModel
+    name: BillsViewModel
+    type: Class
+  - uid: CasaToro.Consulta.Certificados.Web.Models.CertificatesViewModel
+    name: CertificatesViewModel
+    type: Class
+  - uid: CasaToro.Consulta.Certificados.Web.Models.LoginViewModel
+    name: LoginViewModel
+    type: Class
+  - uid: CasaToro.Consulta.Certificados.Web.Models.ProfileViewModel
+    name: ProfileViewModel
+    type: Class
+memberLayout: SamePage

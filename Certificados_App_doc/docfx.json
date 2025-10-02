@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "metadata": [
+    {
+     "src": [
+    	{
+        "files": [
+            "CasaToro.Consulta.Certificados.Web/**/*.csproj",
+            "CasaToro.Consulta.Certificados.BL/**/*.csproj",
+            "CasaToro.Consulta.Certificados.Entities/**/*.csproj",
+	     "CasaToro.Consulta.Certificados.DAL/**/*.csproj"
+        ],
+        "exclude": [
+            "**/bin/**",
+            "**/obj/**"
+        ]
+    }
+	],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "proveedores.usc.com.co",
+      "_appTitle": "proveedores.usc.com.co",
+      "_enableSearch": true,
+      "pdf": true
+    }
+  }
+}

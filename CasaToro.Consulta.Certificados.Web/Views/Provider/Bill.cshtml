@@ -1,0 +1,311 @@
+﻿@model CasaToro.Consulta.Certificados.Web.Models.BillsViewModel
+<!DOCTYPE html>
+<html lang="es-co">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/style.css" rel="stylesheet" />
+    <link href="~/css/styleSeguimientoFacturas.css" rel="stylesheet" />
+    <link href="~/images/icono-web.webp" rel="icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <title>Proveedores USC</title>
+</head>
+<body>
+    <main class="main-page-container">
+        @Html.Partial("_Nav")
+        <section class="page-content">
+            <div class="content-header">
+                <div class="help">
+                    <div class="popup-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                            <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94" />
+                        </svg>
+                    </div>
+                    <div class="popup">
+                        <div class="popup-body">
+                            <p style="font-size: 16px; color: #333; background-color: transparent; padding: 10px;border-radius: 5px;height:100%">
+                                Si notas algún error en los documentos, por favor contáctanos en
+                                <a href="mailto:impuestos@casatoro.com" style="color: #007bff; text-decoration: none; font-weight: bold;">
+                                    impuestos@casatoro.com
+                                </a>
+                                y con gusto te ayudaremos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <h1>Seguimiento de facturas</h1>
+            </div>
+            <div class="content-body">
+                <div class="table-options">
+                    <div class="input-container">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white m-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z" />
+                        </svg>
+
+                        <span>Buscar:</span>
+                        <div class="input-wrapper">
+                            <input type="text" id="search-input" required>
+                            <label for="search-input" class="adaptive-label" placeholder="Número de factura" alt="Número de factura"></label>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="table-responsive border border-secondary-subtl rounded m-2">
+                    <table class="table table-hover table-borderless align-middle">
+                        <thead class="text-center main-table-header">
+                            <tr>
+                                <th scope="col">Número de factura</th>
+                                <th scope="col">Fecha de emisión</th>
+                                <th scope="col">Fecha de pago</th>
+                                <th scope="col">Valor total</th>
+                                <th scope="col">Valor pago</th>
+                                <th scope="col">Estado</th>
+                                <th scope="col">Detalle</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            @if(Model.Bills.Count == 0){
+								<tr>
+									<td colspan = "7" > No se encontraron facturas </td >
+								</tr >
+                            }
+                            @foreach(var bill in Model.Bills){
+                                <tr>
+                                    <td> @bill.NumeroFactura</td>
+                                    <td>@bill.FechaFactura</td>
+                                    <td>@bill.FechaPago</td>
+                                    <td>$@bill.ValorTotal.ToString("#,##0")</td>
+                                    <td>$@bill.ValorPago?.ToString("#,##0")</td>
+                                    <td>@bill.Estado</td>
+                                    <td>
+                                        <input type="hidden" class="bill-id" value="@bill.NumeroFactura" />
+                                        <button class="bill-detail" data-bs-toggle="modal" data-bs-target="#detailModal">
+                                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 3v4a1 1 0 0 1-1 1H5m4 8h6m-6-4h6m4-8v16a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7.914a1 1 0 0 1 .293-.707l3.914-3.914A1 1 0 0 1 9.914 3H18a1 1 0 0 1 1 1Z" />
+                                            </svg>
+                                        </button>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <div class="col-md-12 text-center">
+                        <ul class="pagination pagination-sm justify-content-end pager" id="tablePager"></ul>
+
+                    </div>
+                </div>
+
+                <div class="modal fade" id="detailModal" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="detailModalLabel">Detalle de factura</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="table-responsive">
+                                    <table class="table table-striped align-middle">
+                                        <thead>
+
+                                        </thead>
+                                        <tbody>
+                                           
+                                        </tbody>
+                                    </table>
+                                </div>
+                               
+                            </div>
+                            <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                                        Cerrar
+                                    </button>
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+    @Html.Partial("_Footer")
+   
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const rowsPerPage = 50; 
+            const table = document.querySelector(".table tbody");
+            const rows = Array.from(table.getElementsByTagName("tr"));
+            const paginationContainer = document.getElementById("tablePager");
+            let currentPage = 1;
+            const totalPages = Math.ceil(rows.length / rowsPerPage);
+
+            function showPage(page) {
+                const start = (page - 1) * rowsPerPage;
+                const end = start + rowsPerPage;
+
+                rows.forEach((row, index) => {
+                    row.style.display = index >= start && index < end ? "table-row" : "none";
+                });
+
+                updatePagination(page);
+            }
+
+            function updatePagination(page) {
+                paginationContainer.innerHTML = "";
+                for (let i = 1; i <= totalPages; i++) {
+                    const li = document.createElement("li");
+                    li.classList.add("page-item");
+                    if (i === page) li.classList.add("active");
+
+                    const a = document.createElement("a");
+                    a.classList.add("page-link");
+                    a.textContent = i;
+                    a.href = "#";
+                    a.addEventListener("click", function (e) {
+                        e.preventDefault();
+                        showPage(i);
+                    });
+
+                    li.appendChild(a);
+                    paginationContainer.appendChild(li);
+                }
+            }
+
+            showPage(currentPage);
+        });
+
+		const searchInput = document.getElementById("search-input");
+        searchInput.addEventListener("input", function(e) {
+            const table = document.querySelector(".table tbody");
+            const rows = Array.from(table.getElementsByTagName("tr"));
+            const search = searchInput.value.toLowerCase();
+
+            rows.forEach(row => {
+                const cells = Array.from(row.cells);
+                const match = cells[0].textContent.toLowerCase().includes(search);
+                row.style.display = match ? "table-row" : "none";
+            });
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+			const bills = @Html.Raw(Json.Serialize(Model.Bills));
+            const detailButtons = document.querySelectorAll(".bill-detail");
+            detailButtons.forEach(button => {
+                button.addEventListener("click", function () {
+                    const row = button.closest("tr");
+                    const billId = row.querySelector(".bill-id").value;
+					const bill = bills.find(b => b.numeroFactura === billId);
+
+                    const modalBody = document.querySelector("#detailModal .modal-body tbody");
+                    modalBody.innerHTML = `
+                        <tr>
+                            <th scope="row">No. Factura</th>
+                            <td>${bill.numeroFactura}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Código de proveedor SPIGA+</th>
+                            <td>${bill.codigoSpiga}</td>
+                        </tr>
+                          <tr>
+                            <th scope="row">Nombre de empresa</th>
+                            <td>${bill.idEmpresaNavigation.nombre}</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Moneda</th>
+                            <td>${bill.moneda}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Valor Factura</th>
+                            <td>${formatCurrency(bill.valorTotal)}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Fecha Emisión</th>
+                            <td>${formatDate(bill.fechaFactura)}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">IVA</th>
+                            <td>${formatCurrency(bill.iva)}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Reteción en la fuente</th>
+                            <td>${formatCurrency(bill.reteFuente)}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Retención IVA</th>
+                            <td>${formatCurrency(bill.reteIva)}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Retención ICA</th>
+                            <td>${formatCurrency(bill.reteIca)}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Valor del pago</th>
+                            <td>${formatCurrency(bill.valorPago)}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Fecha del pago</th>
+                            <td>${formatDate(bill.fechaPago)}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Estado</th>
+                            <td>${bill.estado}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Banco Receptor</th>
+                            <td>${bill.bancoReceptor}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Cuenta Bancaría</th>
+                            <td>${bill.cuentaBancaria}</td>
+                        </tr>
+                         <tr>
+                            <th  colspan="2"  style="text-align: center;">Información adicional</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2"  style="text-align: center;">
+                                ${bill.descripcion}
+                            </td>
+                        </tr>
+                      
+                    `;
+                });
+            });
+        });
+
+        function formatCurrency(value){
+			value = value.toFixed();
+
+            return new Intl.NumberFormat("es-CO", {
+                style: "currency",
+                currency: "COP"
+            }).format(value);
+        }
+
+        function formatDate(dateString) {
+          const [year, month, day] = dateString.split("-").map(Number);
+          const date = new Date(year, month - 1, day); 
+
+          return Intl.DateTimeFormat("es-CO").format(date);
+        }
+   
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>

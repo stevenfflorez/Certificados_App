@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: CasaToro.Consulta.Certificados.BL.Services
+  commentId: N:CasaToro.Consulta.Certificados.BL.Services
+  id: CasaToro.Consulta.Certificados.BL.Services
+  children:
+  - CasaToro.Consulta.Certificados.BL.Services.AdminService
+  - CasaToro.Consulta.Certificados.BL.Services.BillService
+  - CasaToro.Consulta.Certificados.BL.Services.CertificateServiceExcel
+  - CasaToro.Consulta.Certificados.BL.Services.CertificatesService
+  - CasaToro.Consulta.Certificados.BL.Services.InvalidExcelFormatException
+  - CasaToro.Consulta.Certificados.BL.Services.LogService
+  - CasaToro.Consulta.Certificados.BL.Services.LoginService
+  - CasaToro.Consulta.Certificados.BL.Services.ProviderService
+  langs:
+  - csharp
+  - vb
+  name: CasaToro.Consulta.Certificados.BL.Services
+  nameWithType: CasaToro.Consulta.Certificados.BL.Services
+  fullName: CasaToro.Consulta.Certificados.BL.Services
+  type: Namespace
+  assemblies:
+  - CasaToro.Consulta.Certificados.BL
+references:
+- uid: CasaToro.Consulta.Certificados.BL.Services.AdminService
+  commentId: T:CasaToro.Consulta.Certificados.BL.Services.AdminService
+  parent: CasaToro.Consulta.Certificados.BL.Services
+  href: CasaToro.Consulta.Certificados.BL.Services.AdminService.html
+  name: AdminService
+  nameWithType: AdminService
+  fullName: CasaToro.Consulta.Certificados.BL.Services.AdminService
+- uid: CasaToro.Consulta.Certificados.BL.Services.BillService
+  commentId: T:CasaToro.Consulta.Certificados.BL.Services.BillService
+  parent: CasaToro.Consulta.Certificados.BL.Services
+  href: CasaToro.Consulta.Certificados.BL.Services.BillService.html
+  name: BillService
+  nameWithType: BillService
+  fullName: CasaToro.Consulta.Certificados.BL.Services.BillService
+- uid: CasaToro.Consulta.Certificados.BL.Services.CertificateServiceExcel
+  commentId: T:CasaToro.Consulta.Certificados.BL.Services.CertificateServiceExcel
+  parent: CasaToro.Consulta.Certificados.BL.Services
+  href: CasaToro.Consulta.Certificados.BL.Services.CertificateServiceExcel.html
+  name: CertificateServiceExcel
+  nameWithType: CertificateServiceExcel
+  fullName: CasaToro.Consulta.Certificados.BL.Services.CertificateServiceExcel
+- uid: CasaToro.Consulta.Certificados.BL.Services.InvalidExcelFormatException
+  commentId: T:CasaToro.Consulta.Certificados.BL.Services.InvalidExcelFormatException
+  href: CasaToro.Consulta.Certificados.BL.Services.InvalidExcelFormatException.html
+  name: InvalidExcelFormatException
+  nameWithType: InvalidExcelFormatException
+  fullName: CasaToro.Consulta.Certificados.BL.Services.InvalidExcelFormatException
+- uid: CasaToro.Consulta.Certificados.BL.Services.CertificatesService
+  commentId: T:CasaToro.Consulta.Certificados.BL.Services.CertificatesService
+  parent: CasaToro.Consulta.Certificados.BL.Services
+  href: CasaToro.Consulta.Certificados.BL.Services.CertificatesService.html
+  name: CertificatesService
+  nameWithType: CertificatesService
+  fullName: CasaToro.Consulta.Certificados.BL.Services.CertificatesService
+- uid: CasaToro.Consulta.Certificados.BL.Services.LoginService
+  commentId: T:CasaToro.Consulta.Certificados.BL.Services.LoginService
+  parent: CasaToro.Consulta.Certificados.BL.Services
+  href: CasaToro.Consulta.Certificados.BL.Services.LoginService.html
+  name: LoginService
+  nameWithType: LoginService
+  fullName: CasaToro.Consulta.Certificados.BL.Services.LoginService
+- uid: CasaToro.Consulta.Certificados.BL.Services.LogService
+  commentId: T:CasaToro.Consulta.Certificados.BL.Services.LogService
+  parent: CasaToro.Consulta.Certificados.BL.Services
+  href: CasaToro.Consulta.Certificados.BL.Services.LogService.html
+  name: LogService
+  nameWithType: LogService
+  fullName: CasaToro.Consulta.Certificados.BL.Services.LogService
+- uid: CasaToro.Consulta.Certificados.BL.Services.ProviderService
+  commentId: T:CasaToro.Consulta.Certificados.BL.Services.ProviderService
+  parent: CasaToro.Consulta.Certificados.BL.Services
+  href: CasaToro.Consulta.Certificados.BL.Services.ProviderService.html
+  name: ProviderService
+  nameWithType: ProviderService
+  fullName: CasaToro.Consulta.Certificados.BL.Services.ProviderService
+- uid: CasaToro.Consulta.Certificados.BL.Services
+  commentId: N:CasaToro.Consulta.Certificados.BL.Services
+  href: CasaToro.html
+  name: CasaToro.Consulta.Certificados.BL.Services
+  nameWithType: CasaToro.Consulta.Certificados.BL.Services
+  fullName: CasaToro.Consulta.Certificados.BL.Services
+  spec.csharp:
+  - uid: CasaToro
+    name: CasaToro
+    href: CasaToro.html
+  - name: .
+  - uid: CasaToro.Consulta
+    name: Consulta
+    href: CasaToro.Consulta.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados
+    name: Certificados
+    href: CasaToro.Consulta.Certificados.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.BL
+    name: BL
+    href: CasaToro.Consulta.Certificados.BL.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.BL.Services
+    name: Services
+    href: CasaToro.Consulta.Certificados.BL.Services.html
+  spec.vb:
+  - uid: CasaToro
+    name: CasaToro
+    href: CasaToro.html
+  - name: .
+  - uid: CasaToro.Consulta
+    name: Consulta
+    href: CasaToro.Consulta.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados
+    name: Certificados
+    href: CasaToro.Consulta.Certificados.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.BL
+    name: BL
+    href: CasaToro.Consulta.Certificados.BL.html
+  - name: .
+  - uid: CasaToro.Consulta.Certificados.BL.Services
+    name: Services
+    href: CasaToro.Consulta.Certificados.BL.Services.html

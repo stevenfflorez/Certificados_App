@@ -1,0 +1,485 @@
+{
+  "source_base_path": "C:/Users/1000775880/OneDrive - CASATORO S.A/Escritorio/Certificados_App_doc",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.BL.Services.AdminService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.BL.Services.AdminService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.BL.Services.AdminService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.BL.Services.BillService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.BL.Services.BillService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.BL.Services.BillService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.BL.Services.CertificateServiceExcel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.BL.Services.CertificateServiceExcel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.BL.Services.CertificateServiceExcel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.BL.Services.CertificatesService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.BL.Services.CertificatesService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.BL.Services.CertificatesService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.BL.Services.InvalidExcelFormatException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.BL.Services.InvalidExcelFormatException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.BL.Services.InvalidExcelFormatException",
+      "Summary": "<p sourcefile=\"api/CasaToro.Consulta.Certificados.BL.Services.InvalidExcelFormatException.yml\" sourcestartlinenumber=\"1\">Excepción lanzada cuando el archivo Excel no tiene el formato esperado</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.BL.Services.LogService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.BL.Services.LogService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.BL.Services.LogService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.BL.Services.LoginService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.BL.Services.LoginService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.BL.Services.LoginService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.BL.Services.ProviderService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.BL.Services.ProviderService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.BL.Services.ProviderService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.BL.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.BL.Services.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.BL.Services",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.DAL.ApplicationDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.DAL.ApplicationDbContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.DAL.ApplicationDbContext",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.DAL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.DAL.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.DAL",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.Entities.Administradore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.Entities.Administradore.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.Entities.Administradore",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.Entities.CertificadosIca.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.Entities.CertificadosIca.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.Entities.CertificadosIca",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.Entities.CertificadosIva.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.Entities.CertificadosIva.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.Entities.CertificadosIva",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.Entities.CertificadosRtefte.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.Entities.CertificadosRtefte.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.Entities.CertificadosRtefte",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.Entities.EmpresasMaster.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.Entities.EmpresasMaster.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.Entities.EmpresasMaster",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.Entities.EmpresasProveedore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.Entities.EmpresasProveedore.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.Entities.EmpresasProveedore",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.Entities.FacturasProveedore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.Entities.FacturasProveedore.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.Entities.FacturasProveedore",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.Entities.LogDescarga.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.Entities.LogDescarga.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.Entities.LogDescarga",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.Entities.LogLogin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.Entities.LogLogin.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.Entities.LogLogin",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.Entities.LogLoginAdmin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.Entities.LogLoginAdmin.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.Entities.LogLoginAdmin",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.Entities.ProveedoresMaster.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.Entities.ProveedoresMaster.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.Entities.ProveedoresMaster",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.Entities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.Entities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.Web.Controllers.AdminController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.Web.Controllers.AdminController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.Web.Controllers.AdminController",
+      "Summary": "<p sourcefile=\"api/CasaToro.Consulta.Certificados.Web.Controllers.AdminController.yml\" sourcestartlinenumber=\"1\">Controlador que maneja las acciones relacionadas con la administración, incluyendo la gestión de proveedores y certificados.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.Web.Controllers.LoginController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.Web.Controllers.LoginController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.Web.Controllers.LoginController",
+      "Summary": "<p sourcefile=\"api/CasaToro.Consulta.Certificados.Web.Controllers.LoginController.yml\" sourcestartlinenumber=\"1\">Controlador que maneja las acciones relacionadas con el inicio de sesión y cierre de sesión.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.Web.Controllers.ProviderController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.Web.Controllers.ProviderController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.Web.Controllers.ProviderController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.Web.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.Web.Controllers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.Web.Controllers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.Web.Models.BillsViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.Web.Models.BillsViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.Web.Models.BillsViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.Web.Models.CertificatesViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.Web.Models.CertificatesViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.Web.Models.CertificatesViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.Web.Models.LoginViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.Web.Models.LoginViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.Web.Models.LoginViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.Web.Models.ProfileViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.Web.Models.ProfileViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.Web.Models.ProfileViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CasaToro.Consulta.Certificados.Web.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CasaToro.Consulta.Certificados.Web.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CasaToro.Consulta.Certificados.Web.Models",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

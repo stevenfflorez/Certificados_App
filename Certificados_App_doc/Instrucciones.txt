@@ -1,0 +1,3 @@
+Para ver la API de la documentación técnica de la aplicación es necesario desplegar con la librería docfx, usando el siguiente comando :
+
+ docfx "ruta del archivo docfx.json" --serve
