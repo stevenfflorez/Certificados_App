@@ -252,8 +252,8 @@
                 <p id="sucursal_limit_msg" style="color:red; display:none;">Máximo 3 sucursales (principal + 2 adicionales).</p>
 
 
-				<h3 class="sub-header">Identifique la persona natural que ejerza control sobre la persona juridica o que sea titular, directa o indirectamente, del cinco por ciento (5%) 
-                    o más del capital o derechos de voto y/o se beneficie en un cinco por ciento (5%) o mas de los rendimientos, utilidades o Activos.</h3>
+				<p class="sub-header">Identifique la persona natural que ejerza control sobre la persona juridica o que sea titular, directa o indirectamente, del cinco por ciento (5%) 
+                    o más del capital o derechos de voto y/o se beneficie en un cinco por ciento (5%) o mas de los rendimientos, utilidades o Activos.</p>
                 <p>En caso de requerir más espacios debe anexarse la relación.</p>
 
                 <table id="control-table">
@@ -304,7 +304,103 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 	<script>
+		const personTypeSelect = document.getElementById('personType');
+		const idSection = document.getElementById('idSection');
+		const persNatuForm = document.getElementById('persNatuForm');
+		const persJuriForm = document.getElementById('persJuriForm');
 
+        //elementos del formulario de persona natural para PEP
+		const pnPEPYes = document.getElementById('pnPEPSi');
+		const pnPEPNo = document.getElementById('pnPEPNo');
+		const pnPEPtypeGroup = document.getElementById('pnPEPtypeGroup');
+        const pnPEP_Entidad = document.getElementById('pnPEP_Entidad');
+
+		//elementos del formulario de persona juridica para sucursales
+		const addSucursalBtn = document.getElementById('addSucursalBtn');
+		const sucursalesContainer = document.getElementById('sucursales-container');
+		const sucursalLimitMsg = document.getElementById('sucursal_limit_msg');
+		const addControlRowBtn = document.getElementById('addControlRowBtn');
+		const controlTableBody = document.querySelector('#control-table tbody');
+
+        //logica para mostrar/ocultar los forms al cambiar el tipo de persona
+		personTypeSelect.addEventListener('change', function() {
+			const selectedType = this.value;
+
+			persNatuForm.style.display = 'none';
+			persJuriForm.style.display = 'none';
+			idSection.style.display = 'none';
+
+			if (selectedType === 'natural') {
+				idSection.style.display = 'block';
+				persNatuForm.style.display = 'block';
+			} 
+            else if (selectedType === 'juridica') {
+				idSection.style.display = 'block';
+				persJuriForm.style.display = 'block';
+            }
+		});
+
+		//logica para mostrar/ocultar campos relacionados con PEP en el form de persona natural
+        function handlePEPChange(){
+            if(pnPEPYes.checked){
+                pnPEPtypeGroup.style.display = 'flex';
+                pnPEP_Entidad.style.display = 'block';
+            } else {
+                pnPEPtypeGroup.style.display = 'none';
+                pnPEP_Entidad.style.display = 'none';
+            }
+		}
+
+        if(pnPEPYes){
+            pnPEPYes.addEventListener('change', handlePEPChange);
+		}
+        if(pnPEPNo){
+            pnPEPNo.addEventListener('change', handlePEPChange);
+		}
+		handlePEPChange();
+
+		//logica para agregar sucursales en el form de persona juridica
+		addSucursalBtn.addEventListener('click', function() {
+			const currentSucursales = sucursalesContainer.querySelectorAll('.sucursal-item').length;
+			const newIndex = currentSucursales + 1;
+
+            if (newIndex > 3) {
+                sucursalLimitMsg.style.display = 'block';
+                return;
+            }
+            sucursalLimitMsg.style.display = 'none';
+
+			const newSucursalDiv = document.createElement('div');
+			newSucursalDiv.className = 'sucursal-item';
+			newSucursalDiv.id = `sucursal_${newIndex}`;
+            newSucursalDiv.innerHTML = `
+                <h4>Dirección sucursal ${newIndex}</h4>
+				<div class="form-group
+                    <label for="pjDirSucursal_${newIndex}">Dirección Sucursal:</label>
+                    <input type="text" id="pjDirSucursal_${newIndex}" />
+				</div>
+                <div class="flex-container">
+					<div class="form-group half-width">
+                        <label for="pjCiudadDirSucursal_${newIndex}">Ciudad:</label>
+                        <input type="text" id="pjCiudadDirSucursal_${newIndex}" />
+					</div>
+                    <div class="form-group half-width">
+                        <label for="pjEmailDirSucursal_${newIndex}">E-mail:</label>
+						<input type="email" id="pjEmailDirSucursal_${newIndex}" />
+					</div>
+					<div class="form-group half-width">
+                        <label for="pjTelDirSucursal_${newIndex}">Teléfono:</label>
+						<input type="text" id="pjTelDirSucursal_${newIndex}" />
+                    </div>
+                </div>
+				<button type="button" class="remove-sucursal-btn button-group">Eliminar Sucursal</button>
+			`;
+
+			sucursalesContainer.appendChild(newSucursalDiv);
+            if (newIndex === 3) {
+                addSucursalBtn.disabled = true;
+                sucursalLimitMsg.style.display = 'block';
+			}
 	</script>
 </body>
 </html>
