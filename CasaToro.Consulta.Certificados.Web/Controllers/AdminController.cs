@@ -24,6 +24,12 @@ namespace CasaToro.Consulta.Certificados.Web.Controllers
             return View();
         }
 
+        // Acción que muestra la vista para actualizar la información básica
+        public ActionResult UptBasicInfo()
+        {
+            return View();
+        }
+
         // Acción que maneja la actualización de la información de los certificados desde un archivo Excel
         [HttpPost]
         public IActionResult UpdateCertificateInfo(IFormFile file, string infoType)

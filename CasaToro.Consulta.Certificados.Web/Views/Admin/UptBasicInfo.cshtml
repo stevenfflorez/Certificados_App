@@ -1,0 +1,310 @@
+﻿<!DOCTYPE html>
+<html lang="es-co">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/style.css" rel="stylesheet" />
+    <link href="~/css/alerts.css" rel="stylesheet" />
+    <link href="~/css/adminActInfoBasica.css" rel="stylesheet" />
+    <link href="~/images/icono-web.webp" rel="icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Proveedores USC</title>
+</head>
+<body>
+    <main class="main-page-container">
+        @Html.Partial("_NavAdmin")
+        <section class="page-content">
+            <div class="content-header">
+				<h1>Actualizar Información Básica</h1>
+            </div>
+            <div class="form-group">
+                <label for="personType">Seleccione el Tipo de Persona:</label>
+                <select id="personType">
+					<option value="" disabled selected>-- Seleccione una opción --</option>
+                    <option value="natural">Persona Natural</option>
+					<option value="juridica">Persona Jurídica</option>
+				</select>
+            </div>
+
+            <div id="idSection" class="form-group hidden">
+                <label for="idNum">Número de Identificación:</label>
+				<input type="text" id="idNum" placeholder="Número"/>
+                <button id="consultBtn" class="button-group">Consultar</button>
+            </div>
+
+            <div id="persNatuForm" class="form-section">
+
+                <h2>Persona Natural</h2>
+				<div class="flex-container">
+					<div class="form-group half-width">
+                        <label for="pnNombreCompl">Nombre Completo:</label>
+						<input type="text" id="pnNombreCompl"/>
+                    </div>
+                </div>
+
+                <h3 class="sub-header">Personas Nacionales</h3>
+				<div class="flex-container">
+					<div class="form-group half-width">
+                        <label>Tipo Doc:</label>
+                        <div class="checkbox-group">
+							<input type="checkbox" id="pnNac-CC" name="pnNacDoc" value="CC" /><label for="pnNac-CC">CC</label>
+							<input type="checkbox" id="pnNac-NIT" name="pnNacDoc" value="NIT" /><label for="pnNac-NIT">NIT</label>
+                        </div>
+                    </div>
+                    <div class="form-group half-width">
+						<label for="pnNac-Num">N°:</label>
+						<input type="text" id="pnNac-Num"/>
+                    </div>
+                </div>
+
+				<h3 class="sub-header">Personas Extranjeras</h3>
+				<div class="flex-container">
+                    <div class="form-group half-width">
+                        <label>Tipo Doc:</label>
+						<div class="checkbox-group">
+							<input type="checkbox" id="pnExt-CE" name="pnExtDoc" value="CE" /><label for="pnExt-CE">CE</label>
+							<input type="checkbox" id="pnExt-PAS" name="pnExtDoc" value="PAS" /><label for="pnExt-PAS">Pasaporte</label>
+							<input type="checkbox" id="pnExt-CAR" name="pnExtDoc" value="CAR" /><label for="pnExt-CAR">Carné Dir. Producido Min Rel. Ext</label>
+                        </div>
+					</div>
+					<div class="form-group half-width">
+						<label for="pnExt-Num">N°:</label>
+						<input type="text" id="pnExt-Num" />
+                    </div>
+                </div>
+
+				<div class="flex-container">
+					<div class="form-group half-width">
+                        <label for="pnFechaExpDoc">Fecha de Expedición de Documento de Identidad:</label>
+						<input type="date" id="pnFechaExpDoc" />
+                    </div>
+                    <div class="form-group half-width">
+						<label for="pnLugExpDoc">Lugar de Expedición de Documento de Identidad:</label>
+                        <input type="text" id="pnLugExpDoc" />
+					</div>
+                </div>
+				<div class="flex-container">
+                    <div class="form-group half-width">
+						<label for="pnFechaNac">Fecha de Nacimiento:</label>
+						<input type="date" id="pnFechaNac" />
+                    </div>
+					<div class="form-group half-weidth">
+						<label for="pnLugNac">Lugar de Nacimiento:</label>
+						<input type="text" id="pnLugNac" />
+                    </div>
+                </div>
+
+				<div class="flex-container">
+                    <div class="form-group half-width">
+						<label for="pnNacionalidad">Nacionalidad:</label>
+                        <input type="text" id="pnNacionalidad" />
+					</div>
+					<div class="form-group half-width">
+                        <label for="pnDiResidencia">Dirección de Residencia:</label>
+						<input type="text" id="pnDiResidencia" />
+                    </div>
+                </div>
+
+                <div class="flex-container">
+					<div class="form-group half-width">
+                        <label for="pnCiudad">Ciudad:</label>
+						<input type="text" id="pnCiudad" />
+                    </div>
+                    <div class="form-group half-width">
+						<label for="pnTelefono">Teléfono Fijo:</label>
+                        <input type="text" id="pnTelefono" />
+					</div>
+                </div>
+
+                <div class="flex-container">
+					<div class="form-group half-width">
+						<label for="pnCelular">Teléfono Celular:</label>
+						<input type="text" id="pnCelular" />
+                    </div>
+                    <div class="form-group half-width">
+						<label for="pnEmail">Correo Electrónico:</label>
+						<input type="email" id="pnEmail" />
+                    </div>
+                </div>
+
+                <div class="flrex-container">
+                    <div class="form-group half-width">
+                        <label for="pnOficProfe">Oficio o Profesión</label>
+						<input type="text" id="pnOficProfe" />
+                    </div>
+                    <div class="form-group half-width">
+                        <label for="pnActividad">Actividad</label>
+						<select id="pnActividad">
+                            <opcion value="dependiente">Dependiente</opcion>
+							<opcion value="independiente">Independiente</opcion>
+                        </select>
+                    </div>
+                </div>
+
+				<h3 class="sub-header">Marque según su perfil, cargo y/u ocupación</h3>
+                <div class="flex-container">
+					<div class="form-group half-width">
+						<label>Goza de Reconocimiento Público:</label>
+                        <div class="radio-group">
+							<input type="radio" id="pnReconoPblSi" name="pnReconoPublic" value="Si" /><label for="pnReconoPblSi">Sí</label>
+							<input type="radio" id="pnReconoPblNo" name="pnRecomoPublic" value="No" /><label for="pnReconoPblNo">No</label>
+                        </div>
+                    </div>
+					<div class="form-group half-width">
+                        <label>Maneja Recurson Públicos:</label>
+						<div class="radio-group">
+							<input type="radio" id="pnManRePubSi" name="pnManRePub" value="Si" /><label for="pnManRePubSi">Sí</label>
+                            <input type="radio" id="pnManRePubNo" name="pnManRePub" value="No" /><label for="pnManRePubNo">No</label>
+						</div>
+                    </div>
+                </div>
+
+				<div class="flex-container">
+                    <div class="form-group half-width">
+						<label>Es Persona Expuesta Politicamente:</label>
+						<div class="radio-group">
+							<input type="radio" id="pnPEPSi" name="pnPEP" value="Si" /><label for="pnPEPSi">Sí</label>
+							<input type="radio" id="pnPEPNo" name="pnPEP" value="No" /><label for="pnPEPNo">No</label>
+                        </div>
+                    </div>
+                    <div class="form-group half-width" id="pnPEPtypeGroup" style="display:none;">
+						<label>Tipo de PEP:</label>
+                        <div class="checkbox-group">
+							<input type="checkbox" id="pnPEP-Nac" name="pnPEPType" value="Nacional" /><label for="pnPEP-Nac">PEP Nacional</label>
+							<input type="checkbox" id="pnPEP-OrgInt" name="pnPEPType" value="OrgInternacional" /><label for="pnPEP-OrgInt">PEP Org.Internacional</label>
+							<input type="checkbox" id="pnPEP-Ext" name="pnPEPType" value="Extranjero" /><label for="pnPEP-Ext">PEP Extranjero</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group" id="pnPEP_Entidad" style="display:none;">
+					<label for="pnPEP_Entidad">En caso afirmativo señale la entidad:</label>
+					<input type="text" id="pnPEP_Entidad" />
+                </div>
+
+                <div class="button-group">
+                    <button type="submit">Guardar Persona Natural</button>
+                </div>
+            </div>
+
+            <div id="persJuriForm" class="form-section">
+				<h2>Persona Jurídica</h2>
+				<div class="flex-container">
+                    <div class="form-group half-width">
+						<label for="pjRazSocial">Razón Social:</label>
+                        <input type="text" id="pjRazSocial" />
+                    </div>
+					<div class="form-group half-width">
+                        <label for="pjNIT">NIT</label>
+						<input type="text" id="pjNIT" />
+                    </div>
+				</div>
+
+				<h3 class="sub-header">Direcciones</h3>
+                <div id="direcPrincipal">
+                    <div class="form-group">
+						<label for="pjDirPrincipal">Dirección Oficina Principal:</label>
+						<input type="text" id="pjDirPrincipal" />
+                    </div>
+                    <div class="flex-container">
+						<div class="form-group half-width">
+							<label for="pjCiudadDirPrincipal">Ciudad:</label>
+							<input type="text" id="pjCiudadDirPrincipal" />
+                        </div>
+                        <div class="form-group half-width">
+                            <label for="pjEmailDirPrincipal">E-mail:</label>
+							<input type="email" id="pjEmailDirPrincipal" />
+                        </div>
+						<div class="form-group half-width">
+							<label for="pjTelDirPrincipal">Teléfono:</label>
+							<input type="text" id="pjTelDirPrincipal" />
+                        </div>
+                    </div>
+                </div>
+
+                <div id="sucursales-container">
+                    <div class="sucursal-item" id="sucursal_1">
+						<h4>Dirección sucursal 1</h4>
+						<div class="form-group">
+							<label for="pjDirSucursal_1">Dirección Sucursal:</label>
+                            <input type="text" id="pjDirSucursal_1" />
+                        </div>
+						<div class="flex-container">
+							<div class="form-group half-width">
+								<label for="pjCiudadDirSucursal_1">Ciudad:</label>
+								<input type="text" id="pjCiudadDirSucursal_1" />
+                            </div>
+							<div class="form-group half-width">
+								<label for="pjEmailDirSucursal_1">E-mail:</label>
+								<input type="email" id="pjEmailDirSucursal_1" />
+                            </div>
+							<div class="form-group half-width">
+								<label for="pjTelDirSucursal_1">Teléfono:</label>
+								<input type="text" id="pjTelDirSucursal_1" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<button id="addSucursalBtn" class="button-group">Agregar Sucursal</button>
+                <p id="sucursal_limit_msg" style="color:red; display:none;">Máximo 3 sucursales (principal + 2 adicionales).</p>
+
+
+				<h3 class="sub-header">Identifique la persona natural que ejerza control sobre la persona juridica o que sea titular, directa o indirectamente, del cinco por ciento (5%) 
+                    o más del capital o derechos de voto y/o se beneficie en un cinco por ciento (5%) o mas de los rendimientos, utilidades o Activos.</h3>
+                <p>En caso de requerir más espacios debe anexarse la relación.</p>
+
+                <table id="control-table">
+                    <thead>
+                        <tr>
+                            <th>Razón Social o Nombres Completos</th>
+                            <th>Tipo de Identificación</th>
+                            <th>Número de Identificación</th>
+                            <th>Porcentaje de Participación (%)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="control-row">
+                            <td><input type="text" name="controlRazonSocial[]" style="width:100%;" /></td>
+                            <td>
+                                <select name="controlIdType[]">
+                                    <option value="CC">CC</option>
+                                    <option value="NIT">NIT</option>
+                                </select>
+                            </td>
+                            <td><input type="text" name="controlIdNum[]" style="width:100%;" /></td>
+                            <td><input type="number" name="controlPorcentaje[]" style="width:100%;" /></td>
+                            <td><button type="button" class="remove-control-row">Eliminar</button></td>
+                        </tr>
+					</tbody>
+                </table>
+				<button id="addControlRowBtn" class="button-group">Agregar Fila</button>
+
+                <div class="button-group">
+                    <button type="submit">Guardar Persona Jurídica</button>
+				</div>
+            </div>
+        </section>
+
+
+    </main>
+
+    
+
+    @Html.Partial("_Footer")
+
+    <script src="~/js/EditProfileScript.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+	<script>
+
+	</script>
+</body>
+</html>
